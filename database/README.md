@@ -16,7 +16,11 @@
   ~~你也可以使用Trans_slower.py来替代Trans.py文件，无需密钥，但速度慢~~
 
 # 三.主文件(AI_web.py)使用
+## data.db地址
+通过修改代码第六行中
+> app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///E:/Code/Python/data.db'#data.db存储位置
 
+的绝对地址来修改
 ## POST:
 
 传入一个value数组
