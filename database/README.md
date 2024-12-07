@@ -2,8 +2,8 @@
 
 # 一.环境配置与python库安装
 
-- python版本：3.12.7及以上
-  ***须安装的库**:flask,flask_sqlalchemy,Trans,requests,tencentcloud-sdk-python
+- python版本：3.12.7及以上  
+  **须安装的库**:flask,flask_sqlalchemy,Trans,requests,tencentcloud-sdk-python
 
 > pip install flask,flask_sqlalchemy,Trans,requests,tencentcloud-sdk-python
 
