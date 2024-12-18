@@ -3,11 +3,11 @@ from flask_sqlalchemy import SQLAlchemy
 from Trans import trans_to_chinese,trans_to_english
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///E:/Code/Python/data.db'#data.db存储位置
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False #优化
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users/huany/Desktop/各种大作业/AI/database/data.db' # data.db存储位置
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # 优化
 db = SQLAlchemy(app)
 
-#db 中每行都有id(唯一) ,key, (可选)start_time,end_time,description,added_message
+# db 中每行都有id(唯一), key, (可选)start_time, end_time, description, added_message
 class KeyValue(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     key = db.Column(db.String(80), nullable=False)
@@ -37,8 +37,8 @@ def add():
         return jsonify({'error': 'value are required'}), 400
     if len(value) != 5:
         return jsonify({'error': 'Value must be a list of 5 elements'}), 400
-    key=trans_to_english(value[0]) #将key翻译为英文
-    key=key.replace(' ','_') #去除空格
+    key = trans_to_english(value[0]) # 将 key 翻译为英文
+    key = key.replace(' ', '_') # 去除空格
     kv = KeyValue(
         key=key,
         start_time=value[1],
