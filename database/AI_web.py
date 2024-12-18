@@ -18,7 +18,7 @@ class KeyValue(db.Model):
     def to_dict(self):
         return {
             'id':self.id,
-            'value':[self.key,self.start_time,self.end_time,self.description,self.added_message]
+            'value':[self.key, self.start_time, self.end_time, self.description, self.added_message]
         }
 
 with app.app_context():
@@ -30,7 +30,7 @@ def add():
     value = request.json['value'] 
     '''
         value is a List of [key,start_time(),end_time,Description,added message] len(value)==5
-        E.g value=['成绩','20240905','20240905','94','English']
+        E.g value=['成绩', '20240905', '20240905', '94', 'English']
         all in string form
     '''
     if not value:
@@ -68,7 +68,7 @@ def get_by_id(id):
         return jsonify(kv.to_dict())
     return jsonify({'error': 'Key not found'}), 404
 
-# 根据唯一的id更新键值对
+# 根据唯一的id更新
 @app.route('/put/<int:id>', methods=['PUT'])
 def update(id):
     value = request.json['value']
@@ -87,7 +87,7 @@ def update(id):
     db.session.commit()
     return jsonify(kv.to_dict())
 
-# 删除键值对
+# 根据id删除
 @app.route('/delete/<int:id>', methods=['DELETE'])
 def delete_kv(id):
     kv = KeyValue.query.filter_by(id=id).first()

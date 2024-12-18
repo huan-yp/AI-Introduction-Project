@@ -4,8 +4,8 @@ from tencentcloud.common.profile.http_profile import HttpProfile
 from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException 
 from tencentcloud.tmt.v20180321 import tmt_client, models 
 #有200w字符免费使用
-SecretId = "YOUR_API_ID"
-SecretKey = "YOUR_API_KEY"
+SecretId = "你的ID"
+SecretKey = "你的密钥"
 
 class Translator:
     def __init__(self, from_lang, to_lang):
@@ -35,10 +35,10 @@ class Translator:
             return err
 
 def trans_to_chinese(text):
-    return Translator(from_lang='en',to_lang='zh').translate(text)
+    return Translator(from_lang='en', to_lang='zh').translate(text)
 
 def trans_to_english(text):
-    return Translator(from_lang='zh',to_lang='en').translate(text)
+    return Translator(from_lang='zh', to_lang='en').translate(text)
 
 if __name__ == '__main__':
     print(trans_to_chinese('Hello')) 
