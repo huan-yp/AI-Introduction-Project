@@ -1,6 +1,4 @@
 import re
-import jieba
-import jieba.analyse
 
 from openai import OpenAI
 
