@@ -10,9 +10,9 @@
 ### 调用函数
 - get_response:
   get_response 函数不需要参数，调用函数将会返回一个包含两个字符串的list
-  list的第一个元素为字符串形式的时间 
-  时间格式为 year-month-day xx:xx:xx 代表了下一次主动回复的时间
-  list的第二个元素为字符串形式的主动回复内容
+  - list的第一个元素为字符串形式的时间 
+    - 时间格式为 year-month-day xx:xx:xx 代表了下一次主动回复的时间
+  - list的第二个元素为字符串形式的主动回复内容
 
 ## 实现方式
 - get_reponse:
