@@ -44,5 +44,6 @@ def care_decides():
     care_decides.care_record.append(response)
     response = response.split("|")
     return response
+
 if(__name__!="__main__"):
     print(care_decides())
