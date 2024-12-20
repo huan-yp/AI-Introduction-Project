@@ -2,7 +2,7 @@ from openai import OpenAI
 
 def get_kimi_api_response(input_string):
     client = OpenAI(
-    api_key="Your API Key", # 在这里将 MOONSHOT_API_KEY 替换为你从 Kimi 开放平台申请的 API Key
+    api_key="sk-qeSybUg1d0nhy8h89zx4oX998K7wCFFXos0P3aKK67Nb5NVd", # 在这里将 MOONSHOT_API_KEY 替换为你从 Kimi 开放平台申请的 API Key
     base_url="https://api.moonshot.cn/v1",
 )
  

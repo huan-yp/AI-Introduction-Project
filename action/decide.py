@@ -45,5 +45,5 @@ def care_decides():
     response = response.split("|")
     return response
 
-if(__name__!="__main__"):
+if(__name__=="__main__"):
     print(care_decides())
