@@ -6,7 +6,7 @@
 
 ## 使用说明
 ### 调用模块
-在.py文件的开头使用`from action.decide import get_response`的形式调用模块
+- 在.py文件的开头使用`from action.decide import get_response`的形式调用模块
 ### 调用函数
 - get_response:
   get_response 函数不需要参数，调用函数将会返回一个包含两个字符串的list
