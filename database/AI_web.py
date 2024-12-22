@@ -1,46 +1,67 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from Trans import trans_to_chinese,trans_to_english
+import yaml
+
+def read_config(file_path):
+    """读取配置文件"""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        config = yaml.safe_load(file)
+    return config
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users/huany/Desktop/各种大作业/AI/database/data.db' # data.db存储位置
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False # 优化
+config = read_config('Python/AI-Introduction-Project/database/config.yaml')
+path = 'sqlite:///'+ config
+app.config['SQLALCHEMY_DATABASE_URI'] = path
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-# db 中每行都有id(唯一), key, (可选)start_time, end_time, description, added_message
 class KeyValue(db.Model):
+    tablename = db.Column(db.String(120), nullable=False)
     id = db.Column(db.Integer, primary_key=True)
-    key = db.Column(db.String(80), nullable=False)
+    key = db.Column(db.String(120), nullable=False)
+    name = db.Column(db.String(80))
     start_time = db.Column(db.String(80))
     end_time = db.Column(db.String(80))
     description = db.Column(db.String(120))
     added_message = db.Column(db.String(120))
+
     def to_dict(self):
-        return {
-            'id':self.id,
-            'value':[self.key, self.start_time, self.end_time, self.description, self.added_message]
+        """将对象转换为字典"""
+        tmp={
+            'table': self.tablename,
+            'key': self.key,
+            'value': []
         }
+        if self.name:
+            tmp['value'].append(self.name)
+        if self.start_time:
+            tmp['value'].append(self.start_time)
+        if self.end_time:
+            tmp['value'].append(self.end_time)
+        if self.description:
+            tmp['value'].append(self.description)
+        if self.added_message:
+            tmp['value'].append(self.added_message)
+        return tmp
 
 with app.app_context():
     db.create_all()
 
-# 添加值
-@app.route('/', methods=['POST'])
-def add():
-    value = request.json['value'] 
-    '''
-        value is a List of [key,start_time(),end_time,Description,added message] len(value)==5
-        E.g value=['成绩', '20240905', '20240905', '94', 'English']
-        all in string form
-    '''
-    if not value:
-        return jsonify({'error': 'value are required'}), 400
-    if len(value) != 5:
-        return jsonify({'error': 'Value must be a list of 5 elements'}), 400
-    key = trans_to_english(value[0]) # 将 key 翻译为英文
-    key = key.replace(' ', '_') # 去除空格
+@app.route('/<string:tablename>', methods=['POST'])
+def add(tablename):
+    """添加值"""
+    key = request.json.get('key')
+    value = request.json.get('value', [])
+    if not value or len(value) > 5:
+        return jsonify({'error': 'Value is a list of max 5 elements'}), 400
+    
+    kv = KeyValue.query.filter_by(key=key,tablename=tablename).first()
+    if kv != None:
+        return jsonify({'error': 'Key is already existed'}), 400
     kv = KeyValue(
+        tablename=tablename,
         key=key,
+        name=value[0],
         start_time=value[1],
         end_time=value[2],
         description=value[3],
@@ -50,36 +71,35 @@ def add():
     db.session.commit()
     return jsonify(kv.to_dict()), 201
 
-#根据string key获取所有该类型的值
-@app.route('/by_key/<string:key>', methods=['GET'])
-def get_by_key(key):
-    key=trans_to_english(key)
-    key=key.replace(' ','_')
-    kv = KeyValue.query.filter_by(key=key).all()
+@app.route('/by_table/<string:table>', methods=['GET'])
+def get_by_table(table):
+    """根据table获取所有该类型的值"""
+    kv = KeyValue.query.filter_by(tablename=table).all()
     if kv:
         return jsonify([i.to_dict() for i in kv])
-    return jsonify({'error': 'Key not found'}), 404
+    return jsonify({'error': 'Table not found'}), 404
 
-#根据int id获取值
-@app.route('/by_id/<int:id>', methods=['GET'])
-def get_by_id(id):
-    kv = KeyValue.query.filter_by(id=id).first()
+@app.route('/by_key/<string:table>/<string:key>', methods=['GET'])
+def get_by_id(table,key):
+    """根据table和key获取值"""
+    kv = KeyValue.query.filter_by(key=key,tablename=table).first()
     if kv:
         return jsonify(kv.to_dict())
-    return jsonify({'error': 'Key not found'}), 404
+    return jsonify({'error': 'Table or Key not found'}), 404
 
-# 根据唯一的id更新
-@app.route('/put/<int:id>', methods=['PUT'])
-def update(id):
-    value = request.json['value']
-    if not value:
-        return jsonify({'error': 'value are required'}), 400
-    if len(value) != 5:
-        return jsonify({'error': 'Value must be a list of 5 elements'}), 400
-    kv = KeyValue.query.filter_by(id=id).first()
+@app.route('/put/<string:table>/<string:key>', methods=['PUT'])
+def update(table,key):
+    """根据Table和唯一的key更新"""
+    value = request.json.get('value', [])
+    if not value or len(value) > 5:
+        return jsonify({'error': 'Value is a list of max 5 elements'}), 400
+    kv = KeyValue.query.filter_by(key=key,tablename=table).first()
     if not kv:
-        return jsonify({'error': 'id not found'}), 404
-    kv.key=trans_to_english(value[0]).replace(' ','_')
+        return jsonify({'error': 'Table or Key not found'}), 404
+    
+    while(len(value)<5):
+        value.append()
+    kv.name = value[0]
     kv.start_time = value[1]
     kv.end_time = value[2]
     kv.description = value[3]
@@ -87,12 +107,12 @@ def update(id):
     db.session.commit()
     return jsonify(kv.to_dict())
 
-# 根据id删除
-@app.route('/delete/<int:id>', methods=['DELETE'])
-def delete_kv(id):
-    kv = KeyValue.query.filter_by(id=id).first()
+@app.route('/delete/<string:table>/<string:key>', methods=['DELETE'])
+def delete_kv(table,key):
+    """根据Table和唯一的key删除"""
+    kv = KeyValue.query.filter_by(key=key,tablename=table).first()
     if not kv:
-        return jsonify({'error': 'Key not found'}), 404
+        return jsonify({'error': 'Table or Key not found'}), 404
     db.session.delete(kv)
     db.session.commit()
     return '', 204
