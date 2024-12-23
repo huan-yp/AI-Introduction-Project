@@ -19,11 +19,11 @@ class KeyValue(db.Model):
     tablename = db.Column(db.String(120), nullable=False)
     id = db.Column(db.Integer, primary_key=True)
     key = db.Column(db.String(120), nullable=False)
-    name = db.Column(db.String(80))
+    name = db.Column(db.String(120))
     start_time = db.Column(db.String(80))
     end_time = db.Column(db.String(80))
-    description = db.Column(db.String(120))
-    added_message = db.Column(db.String(120))
+    description = db.Column(db.String(80))
+    added_message = db.Column(db.String(80))
 
     def to_dict(self):
         """将对象转换为字典"""
@@ -47,17 +47,50 @@ class KeyValue(db.Model):
 with app.app_context():
     db.create_all()
 
+@app.route('/creattable/<string:tablename>', methods=['POST'])
+def creat(tablename):
+    """创建表"""
+    key = request.json.get('key')
+    value = request.json.get('value', [])
+
+    kv = KeyValue.query.filter_by(tablename=tablename).first()
+    if kv:
+        return jsonify({'error': 'Table is existed'}), 400
+    if not value or len(value) > 5:
+        return jsonify({'error': 'Value is a list of max 5 elements'}), 400
+    
+    while(len(value)<5):
+        value.append('')
+    kv = KeyValue(
+        tablename=tablename,
+        key=key,
+        name=value[0],
+        start_time=value[1],
+        end_time=value[2],
+        description=value[3],
+        added_message=value[4]
+    )
+    db.session.add(kv)
+    db.session.commit()
+    return jsonify(kv.to_dict()), 201
+
 @app.route('/<string:tablename>', methods=['POST'])
 def add(tablename):
     """添加值"""
     key = request.json.get('key')
     value = request.json.get('value', [])
+
     if not value or len(value) > 5:
         return jsonify({'error': 'Value is a list of max 5 elements'}), 400
-    
+    kv = KeyValue.query.filter_by(tablename=tablename).first()
+    if kv == None:
+        return jsonify({'error': 'Table is not existed'}), 400
     kv = KeyValue.query.filter_by(key=key,tablename=tablename).first()
-    if kv != None:
+    if kv:
         return jsonify({'error': 'Key is already existed'}), 400
+    
+    while(len(value)<5):
+        value.append('')
     kv = KeyValue(
         tablename=tablename,
         key=key,
