@@ -1,0 +1,1560 @@
+ 2024-12-23:17:58:43.365 Tx005898  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:17:58:43.365 Tx005898 DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:17:58:43.367 Tx005898  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:17:58:43.374 Tx005898  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:17:58:43.374 Tx005898 DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:17:58:43.378 Tx005898  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:17:58:43.378 Tx005898  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:17:58:43.379 Tx005898  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:17:58:43.379 Tx005898  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:17:58:43.379 Tx005898  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:17:58:43.381 Tx009ADC DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:17:58:43.381 Tx005898 DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:17:58:43.381 Tx005898  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:17:58:43.381 Tx005898  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:17:58:43.381 Tx005898  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:17:58:43.383 Tx005898  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:17:58:43.383 Tx005898  INFO AEE::DeviceMgr::getDeviceLevel 1803 use default device level 0
+ 2024-12-23:17:58:43.383 Tx005898  CRIT AEE::Mgr::init                 1051 device security level is 0
+ 2024-12-23:17:58:43.383 Tx005898  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:17:58:43.383 Tx005898  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:17:58:43.387 Tx005898  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:17:58:43.387 Tx005898  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:17:58:43.387 Tx005898  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:17:58:43.389 Tx005898  INFO AEE::Mgr::startSyncOnlineAuthRe1336 start online license activate
+ 2024-12-23:17:58:43.389 Tx005898  INFO AEE::genLicenseField            202 timestamp is 1734947923
+ 2024-12-23:17:58:43.389 Tx005898 DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:17:58:43.391 Tx005898  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:17:58:43.391 Tx005898  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:17:58:43.403 Tx005898 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:17:58:43.403 Tx005898  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:17:58:43.403 Tx005898  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:17:58:43.420 Tx005898 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:17:58:43.420 Tx005898  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:17:58:43.420 Tx005898 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:17:58:43.420 Tx005898 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:17:58:43.421 Tx005898 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 00000293AF2B9D70
+ 2024-12-23:17:58:43.422 Tx005898 DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:17:58:43.422 Tx005898 DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:17:58:43.428 Tx005898  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:17:58:43.428 Tx005898  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:00000293AF2EB910 ops:00000293AF2EB768
+ 2024-12-23:17:58:43.428 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:17:58:43.428 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:000000C1B0CFF470 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:17:58:43.429 Tx009FB4 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000293AF2EB910 tsi:0 opaque(conn):00000293AF2B9D70
+ 2024-12-23:17:58:43.429 Tx009FB4 DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:17:58:43.429 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B0FFBB60 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:17:58:43.429 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:105
+ 2024-12-23:17:58:43.430 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:19
+ 2024-12-23:17:58:43.430 Tx009FB4 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000293B0FFBB60
+ 2024-12-23:17:58:43.430 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.467 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:29
+ 2024-12-23:17:58:43.467 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:24
+ 2024-12-23:17:58:43.467 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:17:58:43.467 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.467 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:57
+ 2024-12-23:17:58:43.507 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:2
+ 2024-12-23:17:58:43.507 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:44
+ 2024-12-23:17:58:43.507 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:47
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:17:58:43.507 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:45
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.507 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2B9D70 wsi:00000293B0FFBB60 reason:30
+ 2024-12-23:17:58:43.507 Tx009FB4 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000293B0FFBB60,conn:00000293AF2B9D70
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::NameServer::parseResultToA 717 add 114.118.65.88 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::NameServer::parseResultToA 717 add 114.118.75.150 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:17:58:43.507 Tx005898 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.507 Tx005898  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:17:58:43.513 Tx005898 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.513 Tx005898  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [123.56.17.44, 125.254.169.36, 125.254.169.35, 114.118.65.88, 114.118.75.150, 39.105.54.181, 114.118.65.87]
+ 2024-12-23:17:58:43.513 Tx005898 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:17:58:43.519 Tx005898 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:17:58:43.519 Tx005898  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [125.254.169.35, 114.118.65.88, 39.105.54.181, 123.56.17.44, 125.254.169.36, 114.118.65.87, 114.118.75.150]
+ 2024-12-23:17:58:43.519 Tx005898 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:17:58:43.519 Tx005898 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:17:58:43.519 Tx005898 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 00000293B0FFC760
+ 2024-12-23:17:58:43.519 Tx005898 DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:17:58:43.529 Tx005898 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:17:58:43.529 Tx005898 DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/new time:Mon, 23 Dec 2024 09:58:43 GMT
+ 2024-12-23:17:58:43.533 Tx005898  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B15FA088 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:17:58:43.534 Tx005898  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:00000293B15F8330 ops:00000293B0FFBF88
+ 2024-12-23:17:58:43.534 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B15FA088 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:17:58:43.534 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:000000C1B0DFF350 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:17:58:43.534 Tx00858C DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000293B15F8330 tsi:0 opaque(conn):00000293B0FFC760
+ 2024-12-23:17:58:43.534 Tx00858C DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:114.118.65.88,port:443
+ 2024-12-23:17:58:43.534 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B1EFCA60 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:17:58:43.535 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:105
+ 2024-12-23:17:58:43.536 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:19
+ 2024-12-23:17:58:43.536 Tx00858C DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000293B1EFCA60
+ 2024-12-23:17:58:43.536 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B15FA088 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.567 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:29
+ 2024-12-23:17:58:43.568 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B15FA088 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.654 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:24
+ 2024-12-23:17:58:43.654 Tx00858C DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:17:58:43.654 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:57
+ 2024-12-23:17:58:43.776 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:2
+ 2024-12-23:17:58:43.776 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:44
+ 2024-12-23:17:58:43.776 Tx005898 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:17:58:43.776 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:47
+ 2024-12-23:17:58:43.776 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:45
+ 2024-12-23:17:58:43.776 Tx005898  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:17:58:43.776 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFC760 wsi:00000293B1EFCA60 reason:30
+ 2024-12-23:17:58:43.776 Tx00858C DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000293B1EFCA60,conn:00000293B0FFC760
+ 2024-12-23:17:58:43.777 Tx005898 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:17:58:43.777 Tx005898 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:17:58:43.777 Tx005898  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:17:58:43.781 Tx005898  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:17:58:43.781 Tx005898 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:17:58:43.781 Tx005898 DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:17:58:43.781 Tx005898  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:17:58:43.781 Tx005898  CRIT AEE::DeviceMgr::storeDeviceLeve1787 start store device level 2
+ 2024-12-23:17:58:43.783 Tx005898  INFO AEE::Mgr::onSignSuccess         630 start store license
+ 2024-12-23:17:58:43.784 Tx005898 DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:17:58:43.784 Tx005898 DEBUG AEE::APMManager::addMetric      552 metric map size:3
+ 2024-12-23:17:58:43.785 Tx005898  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:17:58:43.785 Tx005898  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:17:58:43.795 Tx005898 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:17:58:43.795 Tx005898 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 00000293B15FB4D0
+ 2024-12-23:17:58:43.795 Tx005898 DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:17:58:43.795 Tx005898 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:17:58:43.795 Tx005898 DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 09:58:43 GMT
+ 2024-12-23:17:58:43.795 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.795 Tx009FB4 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000293AF2EB910 tsi:0 opaque(conn):00000293B15FB4D0
+ 2024-12-23:17:58:43.795 Tx009FB4 DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:125.254.169.35,port:80
+ 2024-12-23:17:58:43.795 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF32C010 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:17:58:43.796 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:105
+ 2024-12-23:17:58:43.796 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:19
+ 2024-12-23:17:58:43.796 Tx009FB4 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000293AF32C010
+ 2024-12-23:17:58:43.822 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:29
+ 2024-12-23:17:58:43.822 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:24
+ 2024-12-23:17:58:43.822 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 690
+ 2024-12-23:17:58:43.823 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:57
+ 2024-12-23:17:58:43.863 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:2
+ 2024-12-23:17:58:43.863 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:44
+ 2024-12-23:17:58:43.863 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:47
+ 2024-12-23:17:58:43.863 Tx005898 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:17:58:43.863 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:45
+ 2024-12-23:17:58:43.863 Tx005898  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000e17e7@dx193f2f4693fa4bb812
+ 2024-12-23:17:58:43.863 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B15FB4D0 wsi:00000293AF32C010 reason:30
+ 2024-12-23:17:58:43.863 Tx009FB4 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000293AF32C010,conn:00000293B15FB4D0
+ 2024-12-23:17:58:43.864 Tx007CA0  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:17:58:43.864 Tx005898  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 497.745789 ms
+ 2024-12-23:17:58:43.864 Tx005898  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:17:58:43.864 Tx007CA0  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:17:58:43.864 Tx007CA0  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:17:58:43.867 Tx005898 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:17:58:43.867 Tx005898 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:17:58:43.867 Tx005898  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:17:58:43.871 Tx005898  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:17:58:43.871 Tx005898 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:17:58:43.871 Tx007CA0 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:17:58:43.871 Tx007CA0  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:17:58:43.871 Tx005898 DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:17:58:43.871 Tx007CA0  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:17:58:43.871 Tx007CA0  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:17:58:43.872 Tx005898  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:17:58:43.872 Tx005898  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:17:58:43.872 Tx005898 ERROR AEE::ResourceData::loadResource  66 cannot find dependent resource:IVW_KEYWORD_1, version:1.0.1, from:.\
+ 2024-12-23:17:58:43.872 Tx005898 ERROR AEE::Ability::loadCommonResourc  90 cannot find dependent resource:e85c22198
+ 2024-12-23:17:58:43.872 Tx005898 DEBUG AEE::AEE_EngineUnInit           353 ability:e867a88f2 engineUnInit
+ 2024-12-23:17:58:43.873 Tx005898  INFO AEE::AbilityPool::freeAbility   547 start release ability:e867a88f2 resource
+ 2024-12-23:17:58:43.873 Tx005898  WARN AEE::Ability::destroy           268 engine handle not created
+ 2024-12-23:17:58:43.873 Tx005898 ERROR AEE::Ability::unloadCommonResou 115 cannot find dependent resource:e85c22198
+ 2024-12-23:17:58:43.873 Tx005898  INFO AEE::Ability::finit              73 ability:e867a88f2 finit ret:0
+ 2024-12-23:17:58:43.873 Tx005898  INFO AEE::Engine::unInit             187 engine:ef7d69542 uncontext ret:0
+ 2024-12-23:17:58:43.873 Tx005898  CRIT AEE::AEE_EngineUnInit           402 AEE_EngineUnInit:e867a88f2 ret 0
+ 2024-12-23:17:58:43.879 Tx007CA0 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:17:58:43.879 Tx007CA0  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:17:58:43.879 Tx007CA0  INFO AEE::NameServer::getNameServerR 320 found ns! xns.xf-yun.com
+ 2024-12-23:17:58:43.879 Tx007CA0 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 3 ptr: 00000293AF2ACE40
+ 2024-12-23:17:58:43.879 Tx007CA0 DEBUG AEE::ConnectPool::addConnection1520 conID is 3, size is 1
+ 2024-12-23:17:58:43.879 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.879 Tx009FB4 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000293AF2EB910 tsi:0 opaque(conn):00000293AF2ACE40
+ 2024-12-23:17:58:43.879 Tx009FB4 DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:17:58:43.879 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2AD120 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:17:58:43.879 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:105
+ 2024-12-23:17:58:43.879 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:19
+ 2024-12-23:17:58:43.879 Tx009FB4 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000293AF2AD120
+ 2024-12-23:17:58:43.926 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:29
+ 2024-12-23:17:58:43.926 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:24
+ 2024-12-23:17:58:43.926 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:17:58:43.926 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:57
+ 2024-12-23:17:58:43.976 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:2
+ 2024-12-23:17:58:43.976 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:44
+ 2024-12-23:17:58:43.976 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:47
+ 2024-12-23:17:58:43.976 Tx007CA0 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:17:58:43.976 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:45
+ 2024-12-23:17:58:43.976 Tx007CA0 DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.977 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:30
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.37 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.36 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [aee.xf-yun.com]
+ 2024-12-23:17:58:43.977 Tx009FB4 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000293AF2AD120,conn:00000293AF2ACE40
+ 2024-12-23:17:58:43.977 Tx007CA0  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:17:58:43.977 Tx007CA0  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [123.56.17.44, 125.254.169.36, 125.254.169.35, 114.118.65.88, 114.118.75.150, 39.105.54.181, 114.118.65.87]
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:3
+ 2024-12-23:17:58:43.977 Tx007CA0  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [125.254.169.35, 114.118.65.88, 39.105.54.181, 123.56.17.44, 125.254.169.36, 114.118.65.87, 114.118.75.150]
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:3
+ 2024-12-23:17:58:43.977 Tx007CA0  INFO AEE::genLicenseField            202 timestamp is 1734947923
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 4 ptr: 00000293AF2ACE40
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::ConnectPool::addConnection1520 conID is 4, size is 1
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:17:58:43.977 Tx007CA0 DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 09:58:43 GMT
+ 2024-12-23:17:58:43.977 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:00000293B15FA088 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:43.977 Tx00858C DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000293B15F8330 tsi:0 opaque(conn):00000293AF2ACE40
+ 2024-12-23:17:58:43.977 Tx00858C DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:125.254.169.37,port:443
+ 2024-12-23:17:58:43.977 Tx00858C  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2AD120 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:17:58:43.978 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:105
+ 2024-12-23:17:58:43.978 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:19
+ 2024-12-23:17:58:43.978 Tx00858C DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000293AF2AD120
+ 2024-12-23:17:58:44.004 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:29
+ 2024-12-23:17:58:44.037 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:24
+ 2024-12-23:17:58:44.037 Tx00858C DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:17:58:44.037 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:57
+ 2024-12-23:17:58:44.094 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:2
+ 2024-12-23:17:58:44.094 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:44
+ 2024-12-23:17:58:44.094 Tx007CA0 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:17:58:44.094 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:47
+ 2024-12-23:17:58:44.094 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:45
+ 2024-12-23:17:58:44.094 Tx007CA0  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:17:58:44.094 Tx00858C DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293AF2ACE40 wsi:00000293AF2AD120 reason:30
+ 2024-12-23:17:58:44.094 Tx00858C DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000293AF2AD120,conn:00000293AF2ACE40
+ 2024-12-23:17:58:44.095 Tx007CA0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:17:58:44.095 Tx007CA0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:17:58:44.095 Tx007CA0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:17:58:44.099 Tx007CA0  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:17:58:44.099 Tx007CA0  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:17:58:44.099 Tx007CA0 DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:17:58:44.099 Tx007CA0  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:17:58:44.100 Tx007CA0  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:17:58:44.106 Tx007CA0 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:17:58:44.106 Tx007CA0 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 5 ptr: 00000293B0FFCC10
+ 2024-12-23:17:58:44.106 Tx007CA0 DEBUG AEE::ConnectPool::addConnection1520 conID is 5, size is 1
+ 2024-12-23:17:58:44.106 Tx007CA0 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:17:58:44.106 Tx007CA0 DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 09:58:44 GMT
+ 2024-12-23:17:58:44.107 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ED668 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:17:58:44.107 Tx009FB4 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000293AF2EB910 tsi:0 opaque(conn):00000293B0FFCC10
+ 2024-12-23:17:58:44.107 Tx009FB4 DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:125.254.169.35,port:80
+ 2024-12-23:17:58:44.107 Tx009FB4  WARN AEE::LWSContext::httpCallback   500 wsi:00000293AF2ACE30 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:17:58:44.107 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:105
+ 2024-12-23:17:58:44.107 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:19
+ 2024-12-23:17:58:44.107 Tx009FB4 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000293AF2ACE30
+ 2024-12-23:17:58:44.148 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:29
+ 2024-12-23:17:58:44.148 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:24
+ 2024-12-23:17:58:44.148 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 151
+ 2024-12-23:17:58:44.148 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:57
+ 2024-12-23:17:58:44.179 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:2
+ 2024-12-23:17:58:44.179 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:44
+ 2024-12-23:17:58:44.179 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:47
+ 2024-12-23:17:58:44.179 Tx007CA0 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:17:58:44.179 Tx007CA0  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000d988e@dx193f2f46a82a4bc812
+ 2024-12-23:17:58:44.179 Tx007CA0 DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:17:58:44.179 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:45
+ 2024-12-23:17:58:44.179 Tx009FB4 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000293B0FFCC10 wsi:00000293AF2ACE30 reason:30
+ 2024-12-23:17:58:44.179 Tx009FB4 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000293AF2ACE30,conn:00000293B0FFCC10
+ 2024-12-23:18:01:22.595 Tx007508  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:18:01:22.595 Tx007508 DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:18:01:22.597 Tx007508  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:01:22.602 Tx007508  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:01:22.602 Tx007508 DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:18:01:22.604 Tx007508  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:18:01:22.604 Tx007508  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:18:01:22.604 Tx007508  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:18:01:22.604 Tx007508  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:18:01:22.604 Tx007508  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:18:01:22.606 Tx007508 DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:18:01:22.606 Tx009464 DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:18:01:22.606 Tx007508  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:18:01:22.606 Tx007508  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:18:01:22.606 Tx007508  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:18:01:22.606 Tx007508  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:18:01:22.606 Tx007508  INFO AEE::DeviceMgr::getDeviceLevel 1801 cached device level 2
+ 2024-12-23:18:01:22.606 Tx007508  CRIT AEE::Mgr::init                 1051 device security level is 2
+ 2024-12-23:18:01:22.606 Tx007508  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:18:01:22.606 Tx007508  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:01:22.610 Tx007508  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:01:22.610 Tx007508  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:01:22.610 Tx007508  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:01:22.611 Tx007508  INFO AEE::Mgr::localAuthStorageCheck1263 start cached license check
+ 2024-12-23:18:01:22.612 Tx007508 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.612 Tx007508 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.612 Tx007508  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.615 Tx007508  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:01:22.615 Tx007508 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:01:22.616 Tx007508 DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:18:01:22.616 Tx007508  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:18:01:22.618 Tx007508  INFO AEE::Mgr::localAuthStorageCheck1282 start update local timestamp
+ 2024-12-23:18:01:22.619 Tx007508  INFO AEE::Mgr::localAuthStorageCheck1290 local cached license check ret:0
+ 2024-12-23:18:01:22.619 Tx007508  INFO AEE::Mgr::softAuthActivate      886 local cached license parse succeed
+ 2024-12-23:18:01:22.619 Tx007508  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 23.030199 ms
+ 2024-12-23:18:01:22.619 Tx007E54  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:18:01:22.619 Tx007508  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:18:01:22.622 Tx007E54  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:01:22.622 Tx007E54  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:01:22.623 Tx007508 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.623 Tx007508 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.623 Tx007508  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.627 Tx007508  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:01:22.627 Tx007508 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:01:22.627 Tx007508 DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:18:01:22.627 Tx007E54 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:01:22.627 Tx007E54  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:18:01:22.627 Tx007E54  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:01:22.627 Tx007E54  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:01:22.627 Tx007508  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:18:01:22.628 Tx007508  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:18:01:22.629 Tx007508  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_KEYWORD_1, version:1.0.1, use partial-matched path: .\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:01:22.629 Tx007508  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_KEYWORD_1, id:0, version:1.0.1, path:.\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:01:22.629 Tx007508 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:01:22.629 Tx007508 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.629 Tx007508 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.629 Tx007508  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.633 Tx007E54 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:01:22.633 Tx007E54  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:18:01:22.633 Tx007E54  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:18:01:22.634 Tx007508  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:01:22.634 Tx007508 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:01:22.634 Tx007508 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:01:22.636 Tx007508  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_MLP_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:01:22.636 Tx007508  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_MLP_1, id:1, version:1.0.2, path:.\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:01:22.636 Tx007508 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:01:22.637 Tx007508 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.637 Tx007508 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.637 Tx007508  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.640 Tx007508  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:01:22.640 Tx007508 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:01:22.641 Tx007508 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:01:22.644 Tx007E54 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:01:22.644 Tx007E54  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:18:01:22.644 Tx007E54 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:18:01:22.644 Tx007E54 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:01:22.644 Tx007E54 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 000001A00F602CB0
+ 2024-12-23:18:01:22.644 Tx007E54 DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:18:01:22.644 Tx007E54 DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:18:01:22.648 Tx007E54  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F7EC1B8 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:01:22.648 Tx007E54  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:000001A00F7EA460 ops:000001A00D8C79B8
+ 2024-12-23:18:01:22.648 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F7EC1B8 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:01:22.649 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:0000008CB25FF540 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:01:22.649 Tx0048D0 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001A00F7EA460 tsi:0 opaque(conn):000001A00F602CB0
+ 2024-12-23:18:01:22.649 Tx0048D0 DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:18:01:22.649 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00D90CBC0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:01:22.649 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:105
+ 2024-12-23:18:01:22.649 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:19
+ 2024-12-23:18:01:22.650 Tx0048D0 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001A00D90CBC0
+ 2024-12-23:18:01:22.650 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F7EC1B8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:01:22.650 Tx007508  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_FILLER_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:01:22.650 Tx007508  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_FILLER_1, id:2, version:1.0.2, path:.\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:01:22.650 Tx007508 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:01:22.651 Tx007508 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.651 Tx007508 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.651 Tx007508  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.654 Tx007508  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:01:22.654 Tx007508 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:01:22.655 Tx007508 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:01:22.658 Tx007508  CRIT AEE::AEE_LoadData               496 AEE_LoadData:e867a88f2 ret 0
+ 2024-12-23:18:01:22.685 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:29
+ 2024-12-23:18:01:22.685 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:24
+ 2024-12-23:18:01:22.685 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:18:01:22.685 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F7EC1B8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:01:22.685 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:57
+ 2024-12-23:18:01:22.722 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:2
+ 2024-12-23:18:01:22.722 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:44
+ 2024-12-23:18:01:22.722 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:47
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:01:22.722 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:45
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:01:22.722 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F602CB0 wsi:000001A00D90CBC0 reason:30
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.35 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:01:22.722 Tx0048D0 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001A00D90CBC0,conn:000001A00F602CB0
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::NameServer::parseResultToA 717 add 114.118.75.150 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:18:01:22.722 Tx007E54 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:01:22.722 Tx007E54  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:18:01:22.726 Tx007E54 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:01:22.726 Tx007E54  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [114.118.75.150, 125.254.169.35, 114.118.65.87, 114.118.65.88, 39.105.54.181, 123.56.17.44, 125.254.169.36]
+ 2024-12-23:18:01:22.726 Tx007E54 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:18:01:22.729 Tx007E54 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:01:22.729 Tx007E54  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [114.118.65.88, 125.254.169.36, 125.254.169.35, 39.105.54.181, 114.118.65.87, 114.118.75.150, 123.56.17.44]
+ 2024-12-23:18:01:22.729 Tx007E54 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:18:01:22.729 Tx007E54 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:01:22.729 Tx007E54  INFO AEE::genLicenseField            202 timestamp is 1734948082
+ 2024-12-23:18:01:22.729 Tx007E54 DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:18:01:22.729 Tx007E54 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 000001A00F55B9B0
+ 2024-12-23:18:01:22.729 Tx007E54 DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:18:01:22.739 Tx007E54 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:01:22.739 Tx007E54 DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 10:01:22 GMT
+ 2024-12-23:18:01:22.742 Tx007E54  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F5B2758 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:01:22.742 Tx007E54  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:000001A00F5B0A00 ops:000001A00F55BCB8
+ 2024-12-23:18:01:22.742 Tx007EDC  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F5B2758 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:01:22.742 Tx007EDC  WARN AEE::LWSContext::httpCallback   500 wsi:0000008CB27FF0C0 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:01:22.742 Tx007EDC  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F5B2758 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:01:22.743 Tx007EDC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001A00F5B0A00 tsi:0 opaque(conn):000001A00F55B9B0
+ 2024-12-23:18:01:22.743 Tx007EDC DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:125.254.169.35,port:443
+ 2024-12-23:18:01:22.743 Tx007EDC  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F5A18A0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:01:22.743 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:105
+ 2024-12-23:18:01:22.743 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:19
+ 2024-12-23:18:01:22.743 Tx007EDC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001A00F5A18A0
+ 2024-12-23:18:01:22.743 Tx007EDC  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F5B2758 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:01:22.770 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:29
+ 2024-12-23:18:01:22.837 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:24
+ 2024-12-23:18:01:22.837 Tx007EDC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:18:01:22.837 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:57
+ 2024-12-23:18:01:22.930 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:2
+ 2024-12-23:18:01:22.930 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:44
+ 2024-12-23:18:01:22.930 Tx007E54 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:01:22.930 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:47
+ 2024-12-23:18:01:22.930 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:45
+ 2024-12-23:18:01:22.930 Tx007E54  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:18:01:22.931 Tx007EDC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:30
+ 2024-12-23:18:01:22.931 Tx007EDC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001A00F5A18A0,conn:000001A00F55B9B0
+ 2024-12-23:18:01:22.931 Tx007E54 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.931 Tx007E54 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.931 Tx007E54  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.935 Tx007E54  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:18:01:22.935 Tx007E54  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:18:01:22.936 Tx007E54 DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:18:01:22.936 Tx007E54  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:01:22.936 Tx007E54  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:01:22.941 Tx007E54 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:01:22.941 Tx007E54 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 000001A00F55B9B0
+ 2024-12-23:18:01:22.941 Tx007E54 DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:18:01:22.941 Tx007E54 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:01:22.941 Tx007E54 DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 10:01:22 GMT
+ 2024-12-23:18:01:22.941 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F7EC1B8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:01:22.941 Tx0048D0 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001A00F7EA460 tsi:0 opaque(conn):000001A00F55B9B0
+ 2024-12-23:18:01:22.942 Tx0048D0 DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:114.118.65.88,port:80
+ 2024-12-23:18:01:22.942 Tx0048D0  WARN AEE::LWSContext::httpCallback   500 wsi:000001A00F5A18A0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:01:22.942 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:105
+ 2024-12-23:18:01:22.942 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:19
+ 2024-12-23:18:01:22.942 Tx0048D0 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001A00F5A18A0
+ 2024-12-23:18:01:22.960 Tx007508  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:01:22.960 Tx007508 DEBUG AEE::AEESession::AEESession      82 new session! e867a88f2 this:000001A01001DA90
+ 2024-12-23:18:01:22.960 Tx007508  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:01:22.960 Tx007508 DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:0, e867a88f2
+ 2024-12-23:18:01:22.960 Tx007508 DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:01:22.961 Tx007508  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_GRAM_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_GRAM_1
+ 2024-12-23:18:01:22.962 Tx007508  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:01:22.962 Tx007508 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:01:22.962 Tx007508 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:01:22.962 Tx007508 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:01:22.962 Tx007508  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:01:22.966 Tx007508  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:01:22.966 Tx007508 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:01:22.966 Tx007508 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:01:22.975 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:29
+ 2024-12-23:18:01:22.975 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:24
+ 2024-12-23:18:01:22.975 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 151
+ 2024-12-23:18:01:22.975 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:57
+ 2024-12-23:18:01:23.003 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:2
+ 2024-12-23:18:01:23.003 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:44
+ 2024-12-23:18:01:23.003 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:47
+ 2024-12-23:18:01:23.003 Tx007E54 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:01:23.003 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:45
+ 2024-12-23:18:01:23.003 Tx007E54  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000e884d@dx193f2f6d6efa4bb812
+ 2024-12-23:18:01:23.003 Tx007E54 DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:18:01:23.003 Tx0048D0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001A00F55B9B0 wsi:000001A00F5A18A0 reason:30
+ 2024-12-23:18:01:23.004 Tx0048D0 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001A00F5A18A0,conn:000001A00F55B9B0
+ 2024-12-23:18:01:23.012 Tx007508  INFO AEE::Ability::loadParamResource 155 resource .\/resource/ivw70/IVW_GRAM_1 was loaded!
+ 2024-12-23:18:01:23.013 Tx007508  INFO AEE::AEESession::start          223 Session start:0 e867a88f2 this:000001A01001DA90
+ 2024-12-23:18:01:23.013 Tx007508 DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 0
+ 2024-12-23:18:02:19.908 Tx0012A8  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:18:02:19.908 Tx0012A8 DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:18:02:19.909 Tx0012A8  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:02:19.914 Tx0012A8  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:02:19.914 Tx0012A8 DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:18:02:19.916 Tx0012A8  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:18:02:19.916 Tx0012A8  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:18:02:19.916 Tx0012A8  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:18:02:19.916 Tx0012A8  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:18:02:19.916 Tx0012A8  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:18:02:19.919 Tx0012A8 DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:18:02:19.919 Tx009478 DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:18:02:19.919 Tx0012A8  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:18:02:19.919 Tx0012A8  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:18:02:19.919 Tx0012A8  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:18:02:19.920 Tx0012A8  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:18:02:19.920 Tx0012A8  INFO AEE::DeviceMgr::getDeviceLevel 1801 cached device level 2
+ 2024-12-23:18:02:19.920 Tx0012A8  CRIT AEE::Mgr::init                 1051 device security level is 2
+ 2024-12-23:18:02:19.920 Tx0012A8  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:18:02:19.920 Tx0012A8  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:02:19.924 Tx0012A8  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:02:19.925 Tx0012A8  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:02:19.925 Tx0012A8  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:02:19.927 Tx0012A8  INFO AEE::Mgr::localAuthStorageCheck1263 start cached license check
+ 2024-12-23:18:02:19.927 Tx0012A8 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:19.927 Tx0012A8 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:19.927 Tx0012A8  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:19.931 Tx0012A8  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:19.931 Tx0012A8 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:19.931 Tx0012A8 DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:18:02:19.933 Tx0012A8  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:18:02:19.933 Tx0012A8  INFO AEE::Mgr::localAuthStorageCheck1282 start update local timestamp
+ 2024-12-23:18:02:19.934 Tx0012A8  INFO AEE::Mgr::localAuthStorageCheck1290 local cached license check ret:0
+ 2024-12-23:18:02:19.934 Tx0012A8  INFO AEE::Mgr::softAuthActivate      886 local cached license parse succeed
+ 2024-12-23:18:02:19.935 Tx008E04  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:18:02:19.935 Tx0012A8  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 27.299301 ms
+ 2024-12-23:18:02:19.935 Tx0012A8  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:18:02:19.937 Tx008E04  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:02:19.937 Tx008E04  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:02:19.939 Tx0012A8 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:19.939 Tx0012A8 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:19.939 Tx0012A8  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:19.944 Tx0012A8  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:19.944 Tx0012A8 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:19.944 Tx008E04 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:02:19.944 Tx008E04  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:18:02:19.944 Tx0012A8 DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:18:02:19.944 Tx008E04  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:02:19.944 Tx008E04  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:02:19.945 Tx0012A8  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:18:02:19.945 Tx0012A8  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:18:02:19.947 Tx0012A8  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_KEYWORD_1, version:1.0.1, use partial-matched path: .\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:02:19.947 Tx0012A8  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_KEYWORD_1, id:0, version:1.0.1, path:.\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:02:19.947 Tx0012A8 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:19.948 Tx0012A8 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:19.948 Tx0012A8 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:19.948 Tx0012A8  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:19.949 Tx008E04 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:02:19.950 Tx008E04  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:18:02:19.950 Tx008E04  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:18:02:19.952 Tx0012A8  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:19.952 Tx0012A8 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:19.952 Tx0012A8 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:19.954 Tx0012A8  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_MLP_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:02:19.954 Tx0012A8  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_MLP_1, id:1, version:1.0.2, path:.\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:02:19.955 Tx0012A8 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:19.955 Tx0012A8 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:19.955 Tx0012A8 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:19.955 Tx0012A8  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:19.956 Tx008E04 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:02:19.956 Tx008E04  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:18:02:19.956 Tx008E04 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:18:02:19.956 Tx008E04 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:02:19.956 Tx008E04 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 000001C2DAD6E370
+ 2024-12-23:18:02:19.956 Tx008E04 DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:18:02:19.956 Tx008E04 DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:18:02:19.959 Tx0012A8  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:19.959 Tx0012A8 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:19.959 Tx0012A8 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:19.963 Tx008E04  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DAD45638 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:02:19.964 Tx008E04  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:000001C2DAD438E0 ops:000001C2DAD3E628
+ 2024-12-23:18:02:19.964 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DAD45638 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:02:19.964 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:0000006106DFF270 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:02:19.964 Tx0063EC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001C2DAD438E0 tsi:0 opaque(conn):000001C2DAD6E370
+ 2024-12-23:18:02:19.964 Tx0063EC DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:18:02:19.964 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DAD3DF90 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:02:19.965 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:105
+ 2024-12-23:18:02:19.965 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:19
+ 2024-12-23:18:02:19.965 Tx0063EC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001C2DAD3DF90
+ 2024-12-23:18:02:19.965 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DAD45638 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:19.971 Tx0012A8  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_FILLER_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:02:19.971 Tx0012A8  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_FILLER_1, id:2, version:1.0.2, path:.\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:02:19.971 Tx0012A8 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:19.971 Tx0012A8 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:19.971 Tx0012A8 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:19.973 Tx0012A8  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:19.976 Tx0012A8  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:19.976 Tx0012A8 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:19.977 Tx0012A8 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:19.981 Tx0012A8  CRIT AEE::AEE_LoadData               496 AEE_LoadData:e867a88f2 ret 0
+ 2024-12-23:18:02:19.991 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:29
+ 2024-12-23:18:02:19.991 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:24
+ 2024-12-23:18:02:19.991 Tx0063EC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:18:02:19.991 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DAD45638 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:19.991 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:57
+ 2024-12-23:18:02:20.016 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:2
+ 2024-12-23:18:02:20.016 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:44
+ 2024-12-23:18:02:20.016 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:47
+ 2024-12-23:18:02:20.017 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:45
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:02:20.017 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD6E370 wsi:000001C2DAD3DF90 reason:30
+ 2024-12-23:18:02:20.017 Tx0063EC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001C2DAD3DF90,conn:000001C2DAD6E370
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.35 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::NameServer::parseResultToA 717 add 114.118.65.86 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:02:20.017 Tx008E04  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:02:20.017 Tx008E04  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [114.118.75.150, 125.254.169.35, 114.118.65.87, 114.118.65.88, 39.105.54.181, 123.56.17.44, 125.254.169.36]
+ 2024-12-23:18:02:20.017 Tx008E04 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:18:02:20.018 Tx008E04 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:02:20.018 Tx008E04  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [114.118.65.88, 125.254.169.36, 125.254.169.35, 39.105.54.181, 114.118.65.87, 114.118.75.150, 123.56.17.44]
+ 2024-12-23:18:02:20.018 Tx008E04 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:18:02:20.018 Tx008E04 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:02:20.018 Tx008E04  INFO AEE::genLicenseField            202 timestamp is 1734948140
+ 2024-12-23:18:02:20.018 Tx008E04 DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:18:02:20.018 Tx008E04 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 000001C2DAD3B180
+ 2024-12-23:18:02:20.018 Tx008E04 DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:18:02:20.030 Tx008E04 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:02:20.030 Tx008E04 DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 10:02:20 GMT
+ 2024-12-23:18:02:20.035 Tx008E04  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DD26F118 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:02:20.035 Tx008E04  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:000001C2DD26D3C0 ops:000001C2DAD750F8
+ 2024-12-23:18:02:20.035 Tx00843C  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DD26F118 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:02:20.035 Tx00843C  WARN AEE::LWSContext::httpCallback   500 wsi:0000006106EFF4E0 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:02:20.035 Tx00843C  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DD26F118 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:20.035 Tx00843C  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DD26F118 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:20.036 Tx00843C DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001C2DD26D3C0 tsi:0 opaque(conn):000001C2DAD3B180
+ 2024-12-23:18:02:20.036 Tx00843C DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:125.254.169.35,port:443
+ 2024-12-23:18:02:20.036 Tx00843C  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DCD8D6E0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:02:20.036 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:105
+ 2024-12-23:18:02:20.036 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:19
+ 2024-12-23:18:02:20.036 Tx00843C DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001C2DCD8D6E0
+ 2024-12-23:18:02:20.069 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:29
+ 2024-12-23:18:02:20.145 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:24
+ 2024-12-23:18:02:20.146 Tx00843C DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:18:02:20.146 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:57
+ 2024-12-23:18:02:20.203 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:2
+ 2024-12-23:18:02:20.203 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:44
+ 2024-12-23:18:02:20.203 Tx008E04 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:02:20.203 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:47
+ 2024-12-23:18:02:20.203 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:45
+ 2024-12-23:18:02:20.203 Tx008E04  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:18:02:20.203 Tx00843C DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:30
+ 2024-12-23:18:02:20.203 Tx00843C DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001C2DCD8D6E0,conn:000001C2DAD3B180
+ 2024-12-23:18:02:20.203 Tx008E04 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:20.204 Tx008E04 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:20.204 Tx008E04  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:20.207 Tx008E04  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:18:02:20.207 Tx008E04  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:18:02:20.208 Tx008E04 DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:18:02:20.208 Tx008E04  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:02:20.208 Tx008E04  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:02:20.214 Tx008E04 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:02:20.215 Tx008E04 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 000001C2DAD3B180
+ 2024-12-23:18:02:20.215 Tx008E04 DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:18:02:20.215 Tx008E04 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:02:20.215 Tx008E04 DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 10:02:20 GMT
+ 2024-12-23:18:02:20.215 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DAD45638 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:20.215 Tx0063EC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001C2DAD438E0 tsi:0 opaque(conn):000001C2DAD3B180
+ 2024-12-23:18:02:20.215 Tx0063EC DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:114.118.65.88,port:80
+ 2024-12-23:18:02:20.215 Tx0063EC  WARN AEE::LWSContext::httpCallback   500 wsi:000001C2DCD8D6E0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:02:20.215 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:105
+ 2024-12-23:18:02:20.216 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:19
+ 2024-12-23:18:02:20.216 Tx0063EC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001C2DCD8D6E0
+ 2024-12-23:18:02:20.242 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:29
+ 2024-12-23:18:02:20.242 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:24
+ 2024-12-23:18:02:20.242 Tx0063EC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 151
+ 2024-12-23:18:02:20.242 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:57
+ 2024-12-23:18:02:20.246 Tx0012A8  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:02:20.246 Tx0012A8 DEBUG AEE::AEESession::AEESession      82 new session! e867a88f2 this:000001C2DD97F9F0
+ 2024-12-23:18:02:20.246 Tx0012A8  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:02:20.246 Tx0012A8 DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:0, e867a88f2
+ 2024-12-23:18:02:20.246 Tx0012A8 DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:02:20.247 Tx0012A8  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_GRAM_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_GRAM_1
+ 2024-12-23:18:02:20.247 Tx0012A8  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:02:20.247 Tx0012A8 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:20.247 Tx0012A8 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:20.247 Tx0012A8 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:20.249 Tx0012A8  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:20.252 Tx0012A8  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:20.252 Tx0012A8 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:20.253 Tx0012A8 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:20.272 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:2
+ 2024-12-23:18:02:20.272 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:44
+ 2024-12-23:18:02:20.272 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:47
+ 2024-12-23:18:02:20.272 Tx008E04 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:02:20.272 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:45
+ 2024-12-23:18:02:20.272 Tx008E04  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000eb112@dx193f2f7b6a6a4bb812
+ 2024-12-23:18:02:20.272 Tx008E04 DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:18:02:20.272 Tx0063EC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001C2DAD3B180 wsi:000001C2DCD8D6E0 reason:30
+ 2024-12-23:18:02:20.272 Tx0063EC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001C2DCD8D6E0,conn:000001C2DAD3B180
+ 2024-12-23:18:02:20.305 Tx0012A8  INFO AEE::Ability::loadParamResource 155 resource .\/resource/ivw70/IVW_GRAM_1 was loaded!
+ 2024-12-23:18:02:20.306 Tx0012A8 ERROR AEE::Ability::create            260 createPtr failed:60005
+ 2024-12-23:18:02:20.306 Tx0012A8 ERROR AEE::AEESession::start          206 start failed:60005,0
+ 2024-12-23:18:02:20.306 Tx0012A8 ERROR AEE::AEE_Start                  771 start failed:60005
+ 2024-12-23:18:02:20.306 Tx0012A8 DEBUG CRecordHandle::recordFinish      38 RecordHandle::recordFinish:0,
+ 2024-12-23:18:02:20.306 Tx0012A8 DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 60005
+ 2024-12-23:18:02:20.306 Tx009454  CRIT rec::CRecorder::offlineSave      93 tag:e867a88f2, success times:0, failed times:1, cost:59.6422 ms
+ 2024-12-23:18:02:20.306 Tx0012A8 DEBUG AEE::AEE_EngineUnInit           353 ability:e867a88f2 engineUnInit
+ 2024-12-23:18:02:20.306 Tx0012A8  INFO AEE::AbilityPool::freeAbility   547 start release ability:e867a88f2 resource
+ 2024-12-23:18:02:20.306 Tx0012A8  WARN AEE::Ability::destroy           268 engine handle not created
+ 2024-12-23:18:02:20.306 Tx0012A8  WARN AEE::Ability::unloadParamResour 193 unload resource:3
+ 2024-12-23:18:02:20.309 Tx0012A8  INFO AEE::Ability::unloadCommonResou 119 unload resource:0
+ 2024-12-23:18:02:20.309 Tx0012A8  INFO AEE::Ability::unloadCommonResou 119 unload resource:1
+ 2024-12-23:18:02:20.309 Tx0012A8  INFO AEE::Ability::unloadCommonResou 119 unload resource:2
+ 2024-12-23:18:02:20.309 Tx0012A8  INFO AEE::Ability::finit              73 ability:e867a88f2 finit ret:0
+ 2024-12-23:18:02:20.309 Tx0012A8  INFO AEE::Engine::unInit             187 engine:ef7d69542 uncontext ret:0
+ 2024-12-23:18:02:20.309 Tx0012A8  CRIT AEE::AEE_EngineUnInit           402 AEE_EngineUnInit:e867a88f2 ret 0
+ 2024-12-23:18:02:31.791 Tx0053C4  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:18:02:31.791 Tx0053C4 DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:18:02:31.792 Tx0053C4  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:02:31.796 Tx0053C4  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:02:31.796 Tx0053C4 DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:18:02:31.799 Tx0053C4  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:18:02:31.799 Tx0053C4  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:18:02:31.799 Tx0053C4  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:18:02:31.799 Tx0053C4  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:18:02:31.799 Tx0053C4  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:18:02:31.800 Tx0053C4 DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:18:02:31.800 Tx004A30 DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:18:02:31.800 Tx0053C4  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:18:02:31.800 Tx0053C4  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:18:02:31.801 Tx0053C4  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:18:02:31.801 Tx0053C4  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:18:02:31.801 Tx0053C4  INFO AEE::DeviceMgr::getDeviceLevel 1801 cached device level 2
+ 2024-12-23:18:02:31.801 Tx0053C4  CRIT AEE::Mgr::init                 1051 device security level is 2
+ 2024-12-23:18:02:31.801 Tx0053C4  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:18:02:31.801 Tx0053C4  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:02:31.805 Tx0053C4  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:02:31.806 Tx0053C4  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:02:31.806 Tx0053C4  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:02:31.807 Tx0053C4  INFO AEE::Mgr::localAuthStorageCheck1263 start cached license check
+ 2024-12-23:18:02:31.808 Tx0053C4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:31.808 Tx0053C4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:31.808 Tx0053C4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:31.812 Tx0053C4  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:31.812 Tx0053C4 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:31.812 Tx0053C4 DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:18:02:31.813 Tx0053C4  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:18:02:31.814 Tx0053C4  INFO AEE::Mgr::localAuthStorageCheck1282 start update local timestamp
+ 2024-12-23:18:02:31.815 Tx0053C4  INFO AEE::Mgr::localAuthStorageCheck1290 local cached license check ret:0
+ 2024-12-23:18:02:31.815 Tx0053C4  INFO AEE::Mgr::softAuthActivate      886 local cached license parse succeed
+ 2024-12-23:18:02:31.815 Tx0053C4  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 24.277901 ms
+ 2024-12-23:18:02:31.815 Tx009C6C  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:18:02:31.815 Tx0053C4  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:18:02:31.817 Tx009C6C  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:02:31.817 Tx009C6C  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:02:31.818 Tx0053C4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:31.819 Tx0053C4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:31.819 Tx0053C4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:31.822 Tx0053C4  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:31.822 Tx0053C4 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:31.822 Tx0053C4 DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:18:02:31.823 Tx0053C4  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:18:02:31.824 Tx0053C4  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:18:02:31.824 Tx009C6C DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:02:31.824 Tx009C6C  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:18:02:31.824 Tx009C6C  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:02:31.824 Tx009C6C  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:02:31.824 Tx0053C4  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_KEYWORD_1, version:1.0.1, use partial-matched path: .\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:02:31.824 Tx0053C4  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_KEYWORD_1, id:0, version:1.0.1, path:.\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:02:31.825 Tx0053C4 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:31.825 Tx0053C4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:31.825 Tx0053C4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:31.825 Tx0053C4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:31.829 Tx0053C4  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:31.829 Tx0053C4 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:31.829 Tx0053C4 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:31.830 Tx009C6C DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:02:31.830 Tx009C6C  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:18:02:31.830 Tx009C6C  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:18:02:31.831 Tx0053C4  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_MLP_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:02:31.831 Tx0053C4  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_MLP_1, id:1, version:1.0.2, path:.\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:02:31.831 Tx0053C4 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:31.831 Tx0053C4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:31.831 Tx0053C4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:31.831 Tx0053C4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:31.835 Tx0053C4  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:31.835 Tx0053C4 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:31.835 Tx0053C4 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:31.841 Tx009C6C DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:02:31.841 Tx009C6C  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:18:02:31.841 Tx009C6C DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:18:02:31.841 Tx009C6C DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:02:31.841 Tx009C6C DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 000001EB8E297F70
+ 2024-12-23:18:02:31.841 Tx009C6C DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:18:02:31.841 Tx009C6C DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:18:02:31.847 Tx009C6C  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB8E29F3B8 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:02:31.847 Tx009C6C  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:000001EB8E29D660 ops:000001EB8E511E18
+ 2024-12-23:18:02:31.847 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB8E29F3B8 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:02:31.847 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:00000043C9FFEFB0 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:02:31.847 Tx0053C4  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_FILLER_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:02:31.848 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB8E29F3B8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:31.848 Tx0053C4  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_FILLER_1, id:2, version:1.0.2, path:.\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:02:31.848 Tx005AE0 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001EB8E29D660 tsi:0 opaque(conn):000001EB8E297F70
+ 2024-12-23:18:02:31.848 Tx005AE0 DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:18:02:31.848 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB8E54D900 conn ptr is NULL,ignore this reason:85
+ 2024-12-23:18:02:31.848 Tx0053C4 DEBUG [AEECore] resource offset len=448
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:02:31.848 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:105
+ 2024-12-23:18:02:31.848 Tx0053C4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:31.848 Tx0053C4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:31.848 Tx0053C4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:31.848 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:19
+ 2024-12-23:18:02:31.848 Tx005AE0 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001EB8E54D900
+ 2024-12-23:18:02:31.848 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB8E29F3B8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:31.852 Tx0053C4  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:31.852 Tx0053C4 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:31.852 Tx0053C4 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:31.856 Tx0053C4  CRIT AEE::AEE_LoadData               496 AEE_LoadData:e867a88f2 ret 0
+ 2024-12-23:18:02:31.876 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:29
+ 2024-12-23:18:02:31.876 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:24
+ 2024-12-23:18:02:31.876 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:18:02:31.876 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:57
+ 2024-12-23:18:02:31.903 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:2
+ 2024-12-23:18:02:31.903 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:44
+ 2024-12-23:18:02:31.903 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:47
+ 2024-12-23:18:02:31.903 Tx009C6C DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:02:31.903 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:45
+ 2024-12-23:18:02:31.903 Tx009C6C DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:18:02:31.903 Tx009C6C DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:02:31.903 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB8E297F70 wsi:000001EB8E54D900 reason:30
+ 2024-12-23:18:02:31.903 Tx009C6C DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.35 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:02:31.903 Tx005AE0 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001EB8E54D900,conn:000001EB8E297F70
+ 2024-12-23:18:02:31.904 Tx009C6C DEBUG AEE::NameServer::parseResultToA 717 add 124.243.239.204 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:02:31.904 Tx009C6C DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:18:02:31.904 Tx009C6C DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:02:31.904 Tx009C6C  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:18:02:31.908 Tx009C6C DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:02:31.908 Tx009C6C  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.75.150, 114.118.65.88, 114.118.65.87, 39.105.54.181]
+ 2024-12-23:18:02:31.908 Tx009C6C DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:18:02:31.911 Tx009C6C DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:02:31.911 Tx009C6C  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [125.254.169.35, 114.118.65.87, 114.118.75.150, 123.56.17.44, 114.118.65.88, 39.105.54.181, 125.254.169.36]
+ 2024-12-23:18:02:31.911 Tx009C6C DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:18:02:31.911 Tx009C6C DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:02:31.911 Tx009C6C  INFO AEE::genLicenseField            202 timestamp is 1734948151
+ 2024-12-23:18:02:31.911 Tx009C6C DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:18:02:31.911 Tx009C6C DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 000001EB9013D2F0
+ 2024-12-23:18:02:31.911 Tx009C6C DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:18:02:31.921 Tx009C6C DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:02:31.921 Tx009C6C DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 10:02:31 GMT
+ 2024-12-23:18:02:31.925 Tx009C6C  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB901FFCE8 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:02:31.925 Tx009C6C  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:000001EB901FDF90 ops:000001EB9014BBF8
+ 2024-12-23:18:02:31.926 Tx006BCC  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB901FFCE8 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:02:31.926 Tx006BCC  WARN AEE::LWSContext::httpCallback   500 wsi:00000043CA1FF1C0 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:02:31.926 Tx006BCC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001EB901FDF90 tsi:0 opaque(conn):000001EB9013D2F0
+ 2024-12-23:18:02:31.926 Tx006BCC DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:125.254.169.35,port:443
+ 2024-12-23:18:02:31.926 Tx006BCC  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB912767E0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:02:31.926 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:105
+ 2024-12-23:18:02:31.926 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:19
+ 2024-12-23:18:02:31.926 Tx006BCC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001EB912767E0
+ 2024-12-23:18:02:31.926 Tx006BCC  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB901FFCE8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:31.953 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:29
+ 2024-12-23:18:02:31.954 Tx006BCC  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB901FFCE8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:32.019 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:24
+ 2024-12-23:18:02:32.019 Tx006BCC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:18:02:32.019 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:57
+ 2024-12-23:18:02:32.102 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:2
+ 2024-12-23:18:02:32.102 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:44
+ 2024-12-23:18:02:32.102 Tx009C6C DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:02:32.102 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:47
+ 2024-12-23:18:02:32.102 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:45
+ 2024-12-23:18:02:32.102 Tx009C6C  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:18:02:32.103 Tx006BCC DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB912767E0 reason:30
+ 2024-12-23:18:02:32.103 Tx006BCC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001EB912767E0,conn:000001EB9013D2F0
+ 2024-12-23:18:02:32.103 Tx009C6C DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:32.103 Tx009C6C DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:32.103 Tx009C6C  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:32.107 Tx009C6C  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:18:02:32.107 Tx009C6C  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:18:02:32.107 Tx009C6C DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:18:02:32.107 Tx009C6C  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:02:32.107 Tx009C6C  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:02:32.113 Tx009C6C DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:02:32.113 Tx009C6C DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 000001EB9013D2F0
+ 2024-12-23:18:02:32.113 Tx009C6C DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:18:02:32.113 Tx009C6C DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:02:32.113 Tx009C6C DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 10:02:32 GMT
+ 2024-12-23:18:02:32.113 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB8E29F3B8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:02:32.113 Tx005AE0 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:000001EB8E29D660 tsi:0 opaque(conn):000001EB9013D2F0
+ 2024-12-23:18:02:32.113 Tx005AE0 DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:125.254.169.35,port:80
+ 2024-12-23:18:02:32.113 Tx005AE0  WARN AEE::LWSContext::httpCallback   500 wsi:000001EB90210500 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:02:32.114 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:105
+ 2024-12-23:18:02:32.114 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:19
+ 2024-12-23:18:02:32.114 Tx005AE0 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:000001EB90210500
+ 2024-12-23:18:02:32.119 Tx0053C4  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:02:32.119 Tx0053C4 DEBUG AEE::AEESession::AEESession      82 new session! e867a88f2 this:000001EB90218380
+ 2024-12-23:18:02:32.119 Tx0053C4  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:02:32.119 Tx0053C4 DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:0, e867a88f2
+ 2024-12-23:18:02:32.119 Tx0053C4 DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:02:32.122 Tx0053C4  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_GRAM_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_GRAM_1
+ 2024-12-23:18:02:32.122 Tx0053C4  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:02:32.122 Tx0053C4 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:02:32.122 Tx0053C4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:02:32.122 Tx0053C4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:02:32.122 Tx0053C4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:02:32.126 Tx0053C4  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:02:32.126 Tx0053C4 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:02:32.126 Tx0053C4 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:02:32.141 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:29
+ 2024-12-23:18:02:32.141 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:24
+ 2024-12-23:18:02:32.141 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 151
+ 2024-12-23:18:02:32.141 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:57
+ 2024-12-23:18:02:32.168 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:2
+ 2024-12-23:18:02:32.168 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:44
+ 2024-12-23:18:02:32.168 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:47
+ 2024-12-23:18:02:32.168 Tx009C6C DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:02:32.168 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:45
+ 2024-12-23:18:02:32.168 Tx009C6C  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000d3a13@dx193f2f7e51fa4bc812
+ 2024-12-23:18:02:32.168 Tx009C6C DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:18:02:32.168 Tx005AE0 DEBUG AEE::LWSContext::httpCallback   510 http conn:000001EB9013D2F0 wsi:000001EB90210500 reason:30
+ 2024-12-23:18:02:32.168 Tx005AE0 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:000001EB90210500,conn:000001EB9013D2F0
+ 2024-12-23:18:02:32.178 Tx0053C4  INFO AEE::Ability::loadParamResource 155 resource .\/resource/ivw70/IVW_GRAM_1 was loaded!
+ 2024-12-23:18:02:32.179 Tx0053C4 ERROR AEE::Ability::create            260 createPtr failed:60005
+ 2024-12-23:18:02:32.179 Tx0053C4 ERROR AEE::AEESession::start          206 start failed:60005,0
+ 2024-12-23:18:02:32.179 Tx0053C4 ERROR AEE::AEE_Start                  771 start failed:60005
+ 2024-12-23:18:02:32.179 Tx0053C4 DEBUG CRecordHandle::recordFinish      38 RecordHandle::recordFinish:0,
+ 2024-12-23:18:02:32.179 Tx0053C4 DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 60005
+ 2024-12-23:18:02:32.179 Tx0053C4 DEBUG AEE::AEE_EngineUnInit           353 ability:e867a88f2 engineUnInit
+ 2024-12-23:18:02:32.179 Tx009EA0  CRIT rec::CRecorder::offlineSave      93 tag:e867a88f2, success times:0, failed times:1, cost:59.4752 ms
+ 2024-12-23:18:02:32.179 Tx0053C4  INFO AEE::AbilityPool::freeAbility   547 start release ability:e867a88f2 resource
+ 2024-12-23:18:02:32.179 Tx0053C4  WARN AEE::Ability::destroy           268 engine handle not created
+ 2024-12-23:18:02:32.179 Tx0053C4  WARN AEE::Ability::unloadParamResour 193 unload resource:3
+ 2024-12-23:18:02:32.182 Tx0053C4  INFO AEE::Ability::unloadCommonResou 119 unload resource:0
+ 2024-12-23:18:02:32.182 Tx0053C4  INFO AEE::Ability::unloadCommonResou 119 unload resource:1
+ 2024-12-23:18:02:32.182 Tx0053C4  INFO AEE::Ability::unloadCommonResou 119 unload resource:2
+ 2024-12-23:18:02:32.182 Tx0053C4  INFO AEE::Ability::finit              73 ability:e867a88f2 finit ret:0
+ 2024-12-23:18:02:32.182 Tx0053C4  INFO AEE::Engine::unInit             187 engine:ef7d69542 uncontext ret:0
+ 2024-12-23:18:02:32.182 Tx0053C4  CRIT AEE::AEE_EngineUnInit           402 AEE_EngineUnInit:e867a88f2 ret 0
+ 2024-12-23:18:03:15.000 Tx0011B0 DEBUG AEE::APMManager::~APMManager    287 destroy APMManager, Metric Last:0 EventLog Last:0
+ 2024-12-23:18:03:15.768 Tx0013C0 DEBUG AEE::APMManager::~APMManager    287 destroy APMManager, Metric Last:0 EventLog Last:0
+ 2024-12-23:18:03:19.854 Tx000DF0 DEBUG AEE::APMManager::~APMManager    287 destroy APMManager, Metric Last:0 EventLog Last:0
+ 2024-12-23:18:05:00.000 Tx003E58  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:18:05:00.000 Tx003E58 DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:18:05:00.001 Tx003E58  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:05:00.008 Tx003E58  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:05:00.008 Tx003E58 DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:18:05:00.010 Tx003E58  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:18:05:00.010 Tx003E58  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:18:05:00.010 Tx003E58  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:18:05:00.010 Tx003E58  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:18:05:00.010 Tx003E58  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:18:05:00.012 Tx003E58 DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:18:05:00.012 Tx004F48 DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:18:05:00.012 Tx003E58  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:18:05:00.012 Tx003E58  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:18:05:00.012 Tx003E58  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:18:05:00.012 Tx003E58  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:18:05:00.013 Tx003E58  INFO AEE::DeviceMgr::getDeviceLevel 1801 cached device level 2
+ 2024-12-23:18:05:00.013 Tx003E58  CRIT AEE::Mgr::init                 1051 device security level is 2
+ 2024-12-23:18:05:00.013 Tx003E58  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:18:05:00.013 Tx003E58  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:05:00.017 Tx003E58  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:05:00.017 Tx003E58  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:05:00.017 Tx003E58  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:05:00.020 Tx003E58  INFO AEE::Mgr::localAuthStorageCheck1263 start cached license check
+ 2024-12-23:18:05:00.020 Tx003E58 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.020 Tx003E58 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.020 Tx003E58  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.025 Tx003E58  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:00.025 Tx003E58 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:00.025 Tx003E58 DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:18:05:00.026 Tx003E58  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:18:05:00.026 Tx003E58  INFO AEE::Mgr::localAuthStorageCheck1282 start update local timestamp
+ 2024-12-23:18:05:00.028 Tx003E58  INFO AEE::Mgr::localAuthStorageCheck1290 local cached license check ret:0
+ 2024-12-23:18:05:00.028 Tx003E58  INFO AEE::Mgr::softAuthActivate      886 local cached license parse succeed
+ 2024-12-23:18:05:00.028 Tx0038B4  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:18:05:00.028 Tx003E58  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 28.202700 ms
+ 2024-12-23:18:05:00.029 Tx003E58  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:18:05:00.030 Tx0038B4  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:00.030 Tx0038B4  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:00.033 Tx003E58 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.033 Tx003E58 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.033 Tx003E58  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.037 Tx0038B4 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:00.037 Tx0038B4  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:18:05:00.038 Tx003E58  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:00.038 Tx003E58 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:00.038 Tx0038B4  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:00.038 Tx0038B4  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:00.038 Tx003E58 DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:18:05:00.039 Tx003E58  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:18:05:00.039 Tx003E58  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:18:05:00.041 Tx003E58  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_KEYWORD_1, version:1.0.1, use partial-matched path: .\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:05:00.041 Tx003E58  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_KEYWORD_1, id:0, version:1.0.1, path:.\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:05:00.041 Tx003E58 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:00.042 Tx003E58 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.042 Tx003E58 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.042 Tx003E58  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.045 Tx0038B4 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:00.045 Tx0038B4  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:18:05:00.045 Tx0038B4  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:18:05:00.046 Tx003E58  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:00.046 Tx003E58 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:00.046 Tx003E58 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:00.048 Tx003E58  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_MLP_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:05:00.048 Tx003E58  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_MLP_1, id:1, version:1.0.2, path:.\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:05:00.048 Tx003E58 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:00.049 Tx003E58 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.049 Tx003E58 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.049 Tx003E58  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.053 Tx003E58  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:00.053 Tx003E58 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:00.054 Tx003E58 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:00.054 Tx0038B4 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:05:00.054 Tx0038B4  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:18:05:00.054 Tx0038B4 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:18:05:00.054 Tx0038B4 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:05:00.054 Tx0038B4 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 0000019FDDD9EA10
+ 2024-12-23:18:05:00.054 Tx0038B4 DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:18:05:00.054 Tx0038B4 DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:18:05:00.060 Tx0038B4  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FDDDD7FA8 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:05:00.061 Tx0038B4  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:0000019FDDDD6250 ops:0000019FDDDCE488
+ 2024-12-23:18:05:00.061 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FDDDD7FA8 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:05:00.061 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:00000067A76FF480 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:05:00.061 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FDDDD7FA8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:00.061 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FDDDD7FA8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:00.062 Tx003640 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:0000019FDDDD6250 tsi:0 opaque(conn):0000019FDDD9EA10
+ 2024-12-23:18:05:00.062 Tx003640 DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:18:05:00.062 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE068C110 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:00.062 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:105
+ 2024-12-23:18:05:00.062 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:19
+ 2024-12-23:18:05:00.062 Tx003640 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:0000019FE068C110
+ 2024-12-23:18:05:00.066 Tx003E58  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_FILLER_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:05:00.066 Tx003E58  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_FILLER_1, id:2, version:1.0.2, path:.\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:05:00.067 Tx003E58 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:00.067 Tx003E58 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.067 Tx003E58 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.067 Tx003E58  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.071 Tx003E58  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:00.071 Tx003E58 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:00.071 Tx003E58 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:00.075 Tx003E58  CRIT AEE::AEE_LoadData               496 AEE_LoadData:e867a88f2 ret 0
+ 2024-12-23:18:05:00.099 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:29
+ 2024-12-23:18:05:00.099 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:24
+ 2024-12-23:18:05:00.099 Tx003640 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:18:05:00.099 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:57
+ 2024-12-23:18:05:00.135 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:2
+ 2024-12-23:18:05:00.135 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:44
+ 2024-12-23:18:05:00.135 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:47
+ 2024-12-23:18:05:00.135 Tx0038B4 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:00.135 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:45
+ 2024-12-23:18:05:00.135 Tx0038B4 DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:18:05:00.135 Tx0038B4 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:00.135 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDD9EA10 wsi:0000019FE068C110 reason:30
+ 2024-12-23:18:05:00.135 Tx0038B4 DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.36 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:05:00.135 Tx0038B4 DEBUG AEE::NameServer::parseResultToA 717 add 39.105.54.181 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:00.136 Tx0038B4  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:18:05:00.136 Tx003640 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:0000019FE068C110,conn:0000019FDDD9EA10
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:00.136 Tx0038B4  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.75.150, 114.118.65.88, 114.118.65.87, 39.105.54.181]
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:05:00.136 Tx0038B4  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [39.105.54.181, 114.118.75.150, 114.118.65.88, 125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.65.87]
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:05:00.136 Tx0038B4  INFO AEE::genLicenseField            202 timestamp is 1734948300
+ 2024-12-23:18:05:00.136 Tx0038B4 DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:18:05:00.137 Tx0038B4 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 0000019FDDDA82C0
+ 2024-12-23:18:05:00.137 Tx0038B4 DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:18:05:00.148 Tx0038B4 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:05:00.148 Tx0038B4 DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 10:05:00 GMT
+ 2024-12-23:18:05:00.151 Tx0038B4  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE0463968 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:05:00.151 Tx0038B4  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:0000019FE0461C10 ops:0000019FE045A4D8
+ 2024-12-23:18:05:00.151 Tx0061C0  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE0463968 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:05:00.152 Tx0061C0  WARN AEE::LWSContext::httpCallback   500 wsi:00000067A78FF220 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:05:00.152 Tx0061C0 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:0000019FE0461C10 tsi:0 opaque(conn):0000019FDDDA82C0
+ 2024-12-23:18:05:00.152 Tx0061C0 DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:125.254.169.36,port:443
+ 2024-12-23:18:05:00.152 Tx0061C0  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE068BC40 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:00.152 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:105
+ 2024-12-23:18:05:00.152 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:19
+ 2024-12-23:18:05:00.152 Tx0061C0 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:0000019FE068BC40
+ 2024-12-23:18:05:00.152 Tx0061C0  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE0463968 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:00.178 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:29
+ 2024-12-23:18:05:00.179 Tx0061C0  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE0463968 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:00.243 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:24
+ 2024-12-23:18:05:00.243 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:18:05:00.244 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:57
+ 2024-12-23:18:05:00.310 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:2
+ 2024-12-23:18:05:00.310 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:44
+ 2024-12-23:18:05:00.311 Tx0038B4 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:00.311 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:47
+ 2024-12-23:18:05:00.311 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:45
+ 2024-12-23:18:05:00.311 Tx0038B4  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:18:05:00.311 Tx0061C0 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FDDDA82C0 wsi:0000019FE068BC40 reason:30
+ 2024-12-23:18:05:00.311 Tx0061C0 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:0000019FE068BC40,conn:0000019FDDDA82C0
+ 2024-12-23:18:05:00.311 Tx0038B4 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.311 Tx0038B4 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.311 Tx0038B4  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.315 Tx0038B4  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:18:05:00.315 Tx0038B4  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:18:05:00.315 Tx0038B4 DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:18:05:00.315 Tx0038B4  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:00.315 Tx0038B4  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:00.324 Tx0038B4 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:00.324 Tx0038B4 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 0000019FE0ACC4F0
+ 2024-12-23:18:05:00.324 Tx0038B4 DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:18:05:00.324 Tx0038B4 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:05:00.324 Tx0038B4 DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 10:05:00 GMT
+ 2024-12-23:18:05:00.324 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FDDDD7FA8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:00.324 Tx003640 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:0000019FDDDD6250 tsi:0 opaque(conn):0000019FE0ACC4F0
+ 2024-12-23:18:05:00.324 Tx003640 DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:39.105.54.181,port:80
+ 2024-12-23:18:05:00.324 Tx003640  WARN AEE::LWSContext::httpCallback   500 wsi:0000019FE068ADD0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:00.324 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:105
+ 2024-12-23:18:05:00.325 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:19
+ 2024-12-23:18:05:00.325 Tx003640 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:0000019FE068ADD0
+ 2024-12-23:18:05:00.353 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:29
+ 2024-12-23:18:05:00.353 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:24
+ 2024-12-23:18:05:00.353 Tx003640 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 151
+ 2024-12-23:18:05:00.353 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:57
+ 2024-12-23:18:05:00.385 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:2
+ 2024-12-23:18:05:00.385 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:44
+ 2024-12-23:18:05:00.385 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:47
+ 2024-12-23:18:05:00.385 Tx0038B4 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:00.385 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:45
+ 2024-12-23:18:05:00.385 Tx0038B4  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000da3e9@dx193f2fa2818a4bc812
+ 2024-12-23:18:05:00.385 Tx0038B4 DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:18:05:00.385 Tx003640 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000019FE0ACC4F0 wsi:0000019FE068ADD0 reason:30
+ 2024-12-23:18:05:00.385 Tx003640 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:0000019FE068ADD0,conn:0000019FE0ACC4F0
+ 2024-12-23:18:05:00.385 Tx003E58  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:05:00.386 Tx003E58 DEBUG AEE::AEESession::AEESession      82 new session! e867a88f2 this:0000019FE0ACCCC0
+ 2024-12-23:18:05:00.386 Tx003E58  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:05:00.386 Tx003E58 DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:0, e867a88f2
+ 2024-12-23:18:05:00.386 Tx003E58 DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:05:00.387 Tx003E58  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_GRAM_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_GRAM_1
+ 2024-12-23:18:05:00.387 Tx003E58  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:05:00.387 Tx003E58 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:00.388 Tx003E58 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:00.388 Tx003E58 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:00.388 Tx003E58  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:00.392 Tx003E58  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:00.392 Tx003E58 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:00.392 Tx003E58 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:00.439 Tx003E58  INFO AEE::Ability::loadParamResource 155 resource .\/resource/ivw70/IVW_GRAM_1 was loaded!
+ 2024-12-23:18:05:00.440 Tx003E58  INFO AEE::AEESession::start          223 Session start:0 e867a88f2 this:0000019FE0ACCCC0
+ 2024-12-23:18:05:00.440 Tx003E58 DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 0
+ 2024-12-23:18:05:09.017 Tx003E58 DEBUG CRecordHandle::recordFinish      38 RecordHandle::recordFinish:0,
+ 2024-12-23:18:05:09.017 Tx003E58  INFO AEE::AEESession::end            359 Session end:0 e867a88f2 this:0000019FE0ACCCC0
+ 2024-12-23:18:05:09.017 Tx003E58  CRIT AEE::AEE_End                    972 AEE_End: e867a88f2 ret 0
+ 2024-12-23:18:05:09.017 Tx005554  CRIT rec::CRecorder::offlineSave      93 tag:e867a88f2, success times:1, failed times:0, cost:8631.55 ms
+ 2024-12-23:18:05:09.085 Tx003E58  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:05:09.085 Tx003E58  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:05:09.085 Tx003E58 DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:1, e867a88f2
+ 2024-12-23:18:05:09.085 Tx003E58 DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:05:09.086 Tx003E58  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:05:09.086 Tx003E58  INFO AEE::AEESession::start          223 Session start:0 e867a88f2 this:0000019FE0ACCCC0
+ 2024-12-23:18:05:09.086 Tx003E58 DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 0
+ 2024-12-23:18:05:30.121 Tx0097E0  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:18:05:30.121 Tx0097E0 DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:18:05:30.122 Tx0097E0  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:05:30.127 Tx0097E0  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:05:30.127 Tx0097E0 DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:18:05:30.130 Tx0097E0  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:18:05:30.130 Tx0097E0  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:18:05:30.130 Tx0097E0  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:18:05:30.130 Tx0097E0  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:18:05:30.130 Tx0097E0  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:18:05:30.131 Tx0097E0 DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:18:05:30.132 Tx009DF4 DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:18:05:30.132 Tx0097E0  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:18:05:30.132 Tx0097E0  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:18:05:30.132 Tx0097E0  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:18:05:30.132 Tx0097E0  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:18:05:30.132 Tx0097E0  INFO AEE::DeviceMgr::getDeviceLevel 1801 cached device level 2
+ 2024-12-23:18:05:30.132 Tx0097E0  CRIT AEE::Mgr::init                 1051 device security level is 2
+ 2024-12-23:18:05:30.132 Tx0097E0  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:18:05:30.132 Tx0097E0  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:05:30.136 Tx0097E0  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:05:30.137 Tx0097E0  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:05:30.137 Tx0097E0  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:05:30.138 Tx0097E0  INFO AEE::Mgr::localAuthStorageCheck1263 start cached license check
+ 2024-12-23:18:05:30.139 Tx0097E0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.139 Tx0097E0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.139 Tx0097E0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.143 Tx0097E0  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:30.143 Tx0097E0 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:30.143 Tx0097E0 DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:18:05:30.144 Tx0097E0  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:18:05:30.145 Tx0097E0  INFO AEE::Mgr::localAuthStorageCheck1282 start update local timestamp
+ 2024-12-23:18:05:30.146 Tx0097E0  INFO AEE::Mgr::localAuthStorageCheck1290 local cached license check ret:0
+ 2024-12-23:18:05:30.146 Tx0097E0  INFO AEE::Mgr::softAuthActivate      886 local cached license parse succeed
+ 2024-12-23:18:05:30.147 Tx008D68  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:18:05:30.147 Tx0097E0  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 25.914499 ms
+ 2024-12-23:18:05:30.147 Tx0097E0  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:18:05:30.149 Tx008D68  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:30.149 Tx008D68  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:30.151 Tx0097E0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.151 Tx0097E0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.151 Tx0097E0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.155 Tx0097E0  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:30.155 Tx0097E0 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:30.156 Tx0097E0 DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:18:05:30.156 Tx0097E0  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:18:05:30.157 Tx0097E0  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:18:05:30.158 Tx0097E0  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_KEYWORD_1, version:1.0.1, use partial-matched path: .\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:05:30.158 Tx0097E0  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_KEYWORD_1, id:0, version:1.0.1, path:.\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:05:30.158 Tx0097E0 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:30.158 Tx0097E0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.158 Tx0097E0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.159 Tx0097E0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.162 Tx008D68 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:30.162 Tx008D68  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:18:05:30.162 Tx0097E0  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:30.162 Tx0097E0 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:30.162 Tx008D68  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:30.162 Tx008D68  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:30.163 Tx0097E0 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:30.166 Tx0097E0  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_MLP_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:05:30.166 Tx0097E0  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_MLP_1, id:1, version:1.0.2, path:.\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:05:30.166 Tx0097E0 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:30.166 Tx0097E0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.166 Tx0097E0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.166 Tx0097E0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.170 Tx0097E0  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:30.170 Tx0097E0 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:30.171 Tx0097E0 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:30.175 Tx008D68 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:30.175 Tx008D68  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:18:05:30.175 Tx008D68  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:18:05:30.185 Tx008D68 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:05:30.185 Tx008D68  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:18:05:30.185 Tx008D68 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:18:05:30.185 Tx008D68 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:05:30.185 Tx008D68 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 0000015BC04FE680
+ 2024-12-23:18:05:30.185 Tx008D68 DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:18:05:30.185 Tx008D68 DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:18:05:30.185 Tx0097E0  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_FILLER_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:05:30.185 Tx0097E0  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_FILLER_1, id:2, version:1.0.2, path:.\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:05:30.185 Tx0097E0 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:30.186 Tx0097E0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.186 Tx0097E0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.186 Tx0097E0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.190 Tx0097E0  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:30.190 Tx0097E0 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:30.190 Tx0097E0 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:30.192 Tx008D68  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC0510A18 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:05:30.192 Tx008D68  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:0000015BC050ECC0 ops:0000015BC053AF28
+ 2024-12-23:18:05:30.193 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC0510A18 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:05:30.193 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:00000008D0EFF1C0 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:05:30.193 Tx0085DC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:0000015BC050ECC0 tsi:0 opaque(conn):0000015BC04FE680
+ 2024-12-23:18:05:30.193 Tx0085DC DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:18:05:30.193 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC0518470 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:30.193 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:105
+ 2024-12-23:18:05:30.194 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:19
+ 2024-12-23:18:05:30.194 Tx0085DC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:0000015BC0518470
+ 2024-12-23:18:05:30.194 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC0510A18 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:30.196 Tx0097E0  CRIT AEE::AEE_LoadData               496 AEE_LoadData:e867a88f2 ret 0
+ 2024-12-23:18:05:30.233 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:29
+ 2024-12-23:18:05:30.233 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:24
+ 2024-12-23:18:05:30.233 Tx0085DC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:18:05:30.233 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC0510A18 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:30.233 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:57
+ 2024-12-23:18:05:30.274 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:2
+ 2024-12-23:18:05:30.274 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:44
+ 2024-12-23:18:05:30.274 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:47
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:30.274 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:45
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::NameServer::parseResultToA 717 add 39.105.54.181 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::NameServer::parseResultToA 717 add 114.118.65.88 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:30.274 Tx008D68  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:18:05:30.274 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC0518470 reason:30
+ 2024-12-23:18:05:30.274 Tx0085DC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:0000015BC0518470,conn:0000015BC04FE680
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:30.274 Tx008D68  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.75.150, 114.118.65.88, 114.118.65.87, 39.105.54.181]
+ 2024-12-23:18:05:30.274 Tx008D68 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:18:05:30.275 Tx008D68 DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:05:30.275 Tx008D68  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [39.105.54.181, 114.118.75.150, 114.118.65.88, 125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.65.87]
+ 2024-12-23:18:05:30.275 Tx008D68 DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:18:05:30.275 Tx008D68 DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:05:30.275 Tx008D68  INFO AEE::genLicenseField            202 timestamp is 1734948330
+ 2024-12-23:18:05:30.275 Tx008D68 DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:18:05:30.275 Tx008D68 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 0000015BC04FE680
+ 2024-12-23:18:05:30.275 Tx008D68 DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:18:05:30.287 Tx008D68 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:05:30.287 Tx008D68 DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 10:05:30 GMT
+ 2024-12-23:18:05:30.292 Tx008D68  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC21ADE58 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:05:30.293 Tx008D68  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:0000015BC21AC100 ops:0000015BC2B23D08
+ 2024-12-23:18:05:30.293 Tx009EC8  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC21ADE58 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:05:30.293 Tx009EC8  WARN AEE::LWSContext::httpCallback   500 wsi:00000008D10FEF10 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:05:30.293 Tx009EC8 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:0000015BC21AC100 tsi:0 opaque(conn):0000015BC04FE680
+ 2024-12-23:18:05:30.293 Tx009EC8 DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:39.105.54.181,port:443
+ 2024-12-23:18:05:30.293 Tx009EC8  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC21BAD40 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:30.294 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:105
+ 2024-12-23:18:05:30.294 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:19
+ 2024-12-23:18:05:30.294 Tx009EC8 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:0000015BC21BAD40
+ 2024-12-23:18:05:30.294 Tx009EC8  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC21ADE58 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:30.320 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:29
+ 2024-12-23:18:05:30.322 Tx009EC8  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC21ADE58 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:30.390 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:24
+ 2024-12-23:18:05:30.390 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:18:05:30.390 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:57
+ 2024-12-23:18:05:30.505 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:2
+ 2024-12-23:18:05:30.505 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:44
+ 2024-12-23:18:05:30.505 Tx008D68 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:30.505 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:47
+ 2024-12-23:18:05:30.505 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:45
+ 2024-12-23:18:05:30.505 Tx008D68  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:18:05:30.505 Tx009EC8 DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21BAD40 reason:30
+ 2024-12-23:18:05:30.505 Tx009EC8 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:0000015BC21BAD40,conn:0000015BC04FE680
+ 2024-12-23:18:05:30.505 Tx008D68 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.505 Tx008D68 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.505 Tx008D68  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.509 Tx008D68  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:18:05:30.509 Tx008D68  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:18:05:30.510 Tx008D68 DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:18:05:30.510 Tx008D68  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:30.510 Tx008D68  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:30.516 Tx008D68 DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:30.517 Tx008D68 DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 0000015BC04FE680
+ 2024-12-23:18:05:30.517 Tx008D68 DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:18:05:30.517 Tx008D68 DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:05:30.517 Tx008D68 DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 10:05:30 GMT
+ 2024-12-23:18:05:30.517 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC0510A18 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:30.517 Tx0085DC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:0000015BC050ECC0 tsi:0 opaque(conn):0000015BC04FE680
+ 2024-12-23:18:05:30.517 Tx0085DC DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:39.105.54.181,port:80
+ 2024-12-23:18:05:30.517 Tx0085DC  WARN AEE::LWSContext::httpCallback   500 wsi:0000015BC21B8810 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:30.518 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:105
+ 2024-12-23:18:05:30.518 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:19
+ 2024-12-23:18:05:30.518 Tx0085DC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:0000015BC21B8810
+ 2024-12-23:18:05:30.534 Tx0097E0  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:05:30.534 Tx0097E0 DEBUG AEE::AEESession::AEESession      82 new session! e867a88f2 this:0000015BC290C0A0
+ 2024-12-23:18:05:30.534 Tx0097E0  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:05:30.534 Tx0097E0 DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:0, e867a88f2
+ 2024-12-23:18:05:30.534 Tx0097E0 DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:05:30.535 Tx0097E0  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_GRAM_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_GRAM_1
+ 2024-12-23:18:05:30.535 Tx0097E0  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:05:30.535 Tx0097E0 DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:30.536 Tx0097E0 DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:30.536 Tx0097E0 DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:30.536 Tx0097E0  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:30.540 Tx0097E0  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:30.540 Tx0097E0 DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:30.540 Tx0097E0 DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:30.546 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:29
+ 2024-12-23:18:05:30.546 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:24
+ 2024-12-23:18:05:30.546 Tx0085DC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 149
+ 2024-12-23:18:05:30.546 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:57
+ 2024-12-23:18:05:30.580 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:2
+ 2024-12-23:18:05:30.580 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:44
+ 2024-12-23:18:05:30.580 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:47
+ 2024-12-23:18:05:30.580 Tx008D68 DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:30.580 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:45
+ 2024-12-23:18:05:30.580 Tx008D68  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000e3872@dx193f2fa9e0ba4bb812
+ 2024-12-23:18:05:30.580 Tx008D68 DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:18:05:30.580 Tx0085DC DEBUG AEE::LWSContext::httpCallback   510 http conn:0000015BC04FE680 wsi:0000015BC21B8810 reason:30
+ 2024-12-23:18:05:30.580 Tx0085DC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:0000015BC21B8810,conn:0000015BC04FE680
+ 2024-12-23:18:05:30.589 Tx0097E0  INFO AEE::Ability::loadParamResource 155 resource .\/resource/ivw70/IVW_GRAM_1 was loaded!
+ 2024-12-23:18:05:30.590 Tx0097E0  INFO AEE::AEESession::start          223 Session start:0 e867a88f2 this:0000015BC290C0A0
+ 2024-12-23:18:05:30.590 Tx0097E0 DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 0
+ 2024-12-23:18:05:41.373 Tx0048BC  INFO AEE::AEE_SetLogPath            1129 logfile path set to .\aikit.log
+ 2024-12-23:18:05:41.374 Tx0048BC DEBUG AEE::Setting::getThreadNum       71 working thread num is 4
+ 2024-12-23:18:05:41.375 Tx0048BC  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:05:41.380 Tx0048BC  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:05:41.380 Tx0048BC DEBUG getArchitect                   1431 current runtime machine: 
+ 2024-12-23:18:05:41.382 Tx0048BC  INFO AEE::AEE_Init                   194 workDir is .\
+ 2024-12-23:18:05:41.382 Tx0048BC  INFO AEE::AEE_Init                   199 licenseFile path is 
+ 2024-12-23:18:05:41.382 Tx0048BC  INFO AEE::AEE_Init                   200 authBatch is (null)
+ 2024-12-23:18:05:41.382 Tx0048BC  INFO AEE::AEE_Init                   201 userdefined device id is (null)
+ 2024-12-23:18:05:41.382 Tx0048BC  INFO AEE::AEE_Init                   202 sdk mode: net mode
+ 2024-12-23:18:05:41.383 Tx0048BC DEBUG AEE::ConnectPool::ConnectPool  1058 mMultiplexing 0
+ 2024-12-23:18:05:41.383 Tx005CE0 DEBUG AEE::NameServer::threadLoop     433 ttl:0
+ 2024-12-23:18:05:41.383 Tx0048BC  CRIT AEE::Mgr::init                  990 framework version is 2.2.15_rc6
+ 2024-12-23:18:05:41.383 Tx0048BC  CRIT AEE::Mgr::init                  992 appid is bd8bc26e
+ 2024-12-23:18:05:41.383 Tx0048BC  CRIT AEE::Mgr::init                  997 auth type is 0,platform is 3, arch is 4
+ 2024-12-23:18:05:41.385 Tx0048BC  INFO AEE::setCustomDeviceIDPartWeigh 944 use default device id part weight
+ 2024-12-23:18:05:41.385 Tx0048BC  INFO AEE::DeviceMgr::getDeviceLevel 1801 cached device level 2
+ 2024-12-23:18:05:41.385 Tx0048BC  CRIT AEE::Mgr::init                 1051 device security level is 2
+ 2024-12-23:18:05:41.385 Tx0048BC  INFO AEE::Mgr::init                 1054 auth mode: compete auth, registed abilities: e867a88f2;
+ 2024-12-23:18:05:41.385 Tx0048BC  WARN getMACaddress                   393 ReadMACFromRegistry failed! []
+ 2024-12-23:18:05:41.389 Tx0048BC  INFO AEE_Context::getDeviceId        599 mac is bc:f4:d4:3c:3b:39
+ 2024-12-23:18:05:41.390 Tx0048BC  CRIT AEE::Mgr::checkDeviceChanged    759 cached device is 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:05:41.390 Tx0048BC  CRIT AEE::DeviceMgr::storeDevice    1781 start store device 8f6f5512047a67fa94bc8a77f7fef354e27e753efd4369ac28b2786d6450339d5680051410aaa72d90da6d34fcdeb82d013efcf1e70073af9a2629cdaabc818d9649d52faa3cf20bfe782c33bba5fb47
+ 2024-12-23:18:05:41.392 Tx0048BC  INFO AEE::Mgr::localAuthStorageCheck1263 start cached license check
+ 2024-12-23:18:05:41.392 Tx0048BC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.392 Tx0048BC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.392 Tx0048BC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.396 Tx0048BC  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:41.396 Tx0048BC DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:41.396 Tx0048BC DEBUG AEE::SchemaParser::checkAbility 139 ability e867a88f2 is valid
+ 2024-12-23:18:05:41.398 Tx0048BC  INFO AEE::ProtocolParser::generalChe 916 protocol general check ret:0
+ 2024-12-23:18:05:41.398 Tx0048BC  INFO AEE::Mgr::localAuthStorageCheck1282 start update local timestamp
+ 2024-12-23:18:05:41.400 Tx0048BC  INFO AEE::Mgr::localAuthStorageCheck1290 local cached license check ret:0
+ 2024-12-23:18:05:41.400 Tx0048BC  INFO AEE::Mgr::softAuthActivate      886 local cached license parse succeed
+ 2024-12-23:18:05:41.400 Tx0068DC  INFO AEE::Mgr::authFileUpdateMain    475 async check thread start
+ 2024-12-23:18:05:41.400 Tx0048BC  CRIT AEE::AEE_Init                   287 AEE_Init ret 0, cost 26.213800 ms
+ 2024-12-23:18:05:41.400 Tx0048BC  INFO AEE::Engine::loadEngine         220 loading engine: ef7d69542, versionIdx: 0, libname: ef7d69542_v1014_aee.dll
+ 2024-12-23:18:05:41.402 Tx0068DC  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:41.402 Tx0068DC  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:41.404 Tx0048BC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.404 Tx0048BC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.404 Tx0048BC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.407 Tx0068DC DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:41.407 Tx0068DC  INFO AEE::Mgr::startOnlineAuthReques1299 start async online license activate
+ 2024-12-23:18:05:41.407 Tx0068DC  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:41.407 Tx0068DC  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:41.408 Tx0048BC  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:41.408 Tx0048BC DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:41.408 Tx0048BC DEBUG [AEECore] auth verify re, code=0, offset=0
+ 2024-12-23:18:05:41.409 Tx0048BC  CRIT AEE::AEE_EngineInit             346 AEE_EngineInit:e867a88f2 ret 0
+ 2024-12-23:18:05:41.409 Tx0048BC  INFO AEE::Ability::init               65 ability:e867a88f2 init success
+ 2024-12-23:18:05:41.410 Tx0048BC  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_KEYWORD_1, version:1.0.1, use partial-matched path: .\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:05:41.410 Tx0048BC  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_KEYWORD_1, id:0, version:1.0.1, path:.\/resource/ivw70/IVW_KEYWORD_1
+ 2024-12-23:18:05:41.410 Tx0048BC DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:41.411 Tx0048BC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.411 Tx0048BC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.411 Tx0048BC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.414 Tx0048BC  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:41.415 Tx0048BC DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:41.415 Tx0048BC DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:41.415 Tx0068DC DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:41.415 Tx0068DC  INFO AEE::NameServer::resolveHost    454 dns mode:0
+ 2024-12-23:18:05:41.415 Tx0068DC  WARN AEE::NameServer::getNameServerR 308 cannot find "xns.xf-yun.com"'s IP, ipList is empty
+ 2024-12-23:18:05:41.416 Tx0048BC  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_FILLER_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:05:41.416 Tx0048BC  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_FILLER_1, id:1, version:1.0.2, path:.\/resource/ivw70/IVW_FILLER_1
+ 2024-12-23:18:05:41.416 Tx0048BC DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:41.417 Tx0048BC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.417 Tx0048BC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.417 Tx0048BC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.421 Tx0048BC  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:41.421 Tx0048BC DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:41.421 Tx0048BC DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:41.423 Tx0068DC DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:05:41.423 Tx0068DC  INFO AEE::NameServer::getNameServerR 309 dns resolve xns.xf-yun.com as [101.200.180.128]
+ 2024-12-23:18:05:41.423 Tx0068DC DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:0 dnsMap:1 curAddrMap:0
+ 2024-12-23:18:05:41.423 Tx0068DC DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:1 [xns.xf-yun.com]
+ 2024-12-23:18:05:41.423 Tx0068DC DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 0 ptr: 00000224DA306590
+ 2024-12-23:18:05:41.423 Tx0068DC DEBUG AEE::ConnectPool::addConnection1520 conID is 0, size is 1
+ 2024-12-23:18:05:41.423 Tx0068DC DEBUG AEE::Setting::enableCert         90 TLS Strategies: UseTLS: 1, Port: 443, EnableCert: 0
+ 2024-12-23:18:05:41.428 Tx0048BC  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_MLP_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:05:41.429 Tx0048BC  INFO AEE::Ability::loadCommonResourc  94 load resource:IVW_MLP_1, id:2, version:1.0.2, path:.\/resource/ivw70/IVW_MLP_1
+ 2024-12-23:18:05:41.429 Tx0048BC DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:41.429 Tx0048BC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.429 Tx0048BC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.429 Tx0048BC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.430 Tx0068DC  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC047F38 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:05:41.430 Tx0068DC  INFO AEE::LWSContext::LWSContext     111 create:2 context ok! Context:00000224DC0461E0 ops:00000224DA2FEA48
+ 2024-12-23:18:05:41.430 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC047F38 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:05:41.430 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:000000284E7FF420 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:05:41.430 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC047F38 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:41.430 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC047F38 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:41.431 Tx005404 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000224DC0461E0 tsi:0 opaque(conn):00000224DA306590
+ 2024-12-23:18:05:41.431 Tx005404 DEBUG AEE::NetConnection::attach_call 360 host:xns.xf-yun.com,ip:101.200.180.128,port:80
+ 2024-12-23:18:05:41.431 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC88D660 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:41.431 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:105
+ 2024-12-23:18:05:41.432 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:19
+ 2024-12-23:18:05:41.432 Tx005404 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000224DC88D660
+ 2024-12-23:18:05:41.433 Tx0048BC  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:41.433 Tx0048BC DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:41.433 Tx0048BC DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:41.444 Tx0048BC  CRIT AEE::AEE_LoadData               496 AEE_LoadData:e867a88f2 ret 0
+ 2024-12-23:18:05:41.469 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:29
+ 2024-12-23:18:05:41.469 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:24
+ 2024-12-23:18:05:41.469 Tx005404 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 104
+ 2024-12-23:18:05:41.469 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:57
+ 2024-12-23:18:05:41.507 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:2
+ 2024-12-23:18:05:41.507 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:44
+ 2024-12-23:18:05:41.507 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:47
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:41.507 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:45
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::DNSResolver::addDefAddress 788 defMap size:1 [aee.xf-yun.com]
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:41.507 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DA306590 wsi:00000224DC88D660 reason:30
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::NameServer::parseResultToA 717 add 124.243.239.204 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:05:41.507 Tx005404 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000224DC88D660,conn:00000224DA306590
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::NameServer::parseResultToA 717 add 125.254.169.35 to aee.xf-yun.com NsAdrressList
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::DNSResolver::addNsAdrressL 770 addNsAdrressList! (aee.xf-yun.com) isEmpty:0 number:1
+ 2024-12-23:18:05:41.507 Tx0068DC DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:41.507 Tx0068DC  WARN AEE::NameServer::parseResultToA 723 [cn-huabei-1-lg.xf-yun.com] IP list is empty!
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:2 [aee.xf-yun.com]
+ 2024-12-23:18:05:41.508 Tx0068DC  INFO AEE::NameServer::resolveLocalDn 764 dns resolve aee.xf-yun.com as [125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.75.150, 114.118.65.88, 114.118.65.87, 39.105.54.181]
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:2 curAddrMap:2
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::DNSResolver::addDnsAddress 779 dnsMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:05:41.508 Tx0068DC  INFO AEE::NameServer::resolveLocalDn 764 dns resolve cn-huabei-1-lg.xf-yun.com as [39.105.54.181, 114.118.75.150, 114.118.65.88, 125.254.169.36, 123.56.17.44, 125.254.169.35, 114.118.65.87]
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::DNSResolver::~DNSResolver  399 nsMap:1 dnsMap:3 curAddrMap:2
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::DNSResolver::setCurAddress 796 curAddrMap size:3 [cn-huabei-1-lg.xf-yun.com]
+ 2024-12-23:18:05:41.508 Tx0068DC  INFO AEE::genLicenseField            202 timestamp is 1734948341
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::genLicenseField            225 SDKID is 31ed31213c4549c5c20bb5c10b2f9b90
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 1 ptr: 00000224DC0ED780
+ 2024-12-23:18:05:41.508 Tx0068DC DEBUG AEE::ConnectPool::addConnection1520 conID is 1, size is 1
+ 2024-12-23:18:05:41.521 Tx0068DC DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:05:41.521 Tx0068DC DEBUG AEE::NetConnection::genAuthoriz 218 host: aee.xf-yun.com,method:POST, apiPath:/api/v5/auth/update time:Mon, 23 Dec 2024 10:05:41 GMT
+ 2024-12-23:18:05:41.525 Tx0068DC  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DBFF68C8 conn ptr is NULL,ignore this reason:21
+ 2024-12-23:18:05:41.525 Tx0068DC  INFO AEE::LWSContext::LWSContext     111 create:3 context ok! Context:00000224DBFF4B70 ops:00000224DBFF49C8
+ 2024-12-23:18:05:41.525 Tx004FBC  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DBFF68C8 conn ptr is NULL,ignore this reason:31
+ 2024-12-23:18:05:41.525 Tx004FBC  WARN AEE::LWSContext::httpCallback   500 wsi:000000284E8FEE90 conn ptr is NULL,ignore this reason:27
+ 2024-12-23:18:05:41.525 Tx004FBC  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DBFF68C8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:41.525 Tx004FBC  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DBFF68C8 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:41.526 Tx004FBC DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000224DBFF4B70 tsi:0 opaque(conn):00000224DC0ED780
+ 2024-12-23:18:05:41.526 Tx004FBC DEBUG AEE::NetConnection::attach_call 360 host:aee.xf-yun.com,ip:124.243.239.204,port:443
+ 2024-12-23:18:05:41.526 Tx004FBC  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC0E00D0 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:41.526 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:105
+ 2024-12-23:18:05:41.526 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:19
+ 2024-12-23:18:05:41.526 Tx004FBC DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000224DC0E00D0
+ 2024-12-23:18:05:41.554 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:29
+ 2024-12-23:18:05:41.624 Tx0048BC  CRIT AEE::AEE_SpecifyDataSet         723 AEE_SpecifyDataSet:e867a88f2 ret 0
+ 2024-12-23:18:05:41.624 Tx0048BC DEBUG AEE::AEESession::AEESession      82 new session! e867a88f2 this:00000224DC0077B0
+ 2024-12-23:18:05:41.624 Tx0048BC  INFO AEE::AEE_Start                  764 start a new session , type is 4
+ 2024-12-23:18:05:41.624 Tx0048BC DEBUG CRecordHandle::recordStart       75 RecordHandle::recordStart:0, e867a88f2
+ 2024-12-23:18:05:41.624 Tx0048BC DEBUG AEE::ParamValidator::checkIsRes  85 get param resource: e23e6638a, version: 1.0.2
+ 2024-12-23:18:05:41.625 Tx0048BC  WARN getResourceFilePath             408 can't find full-matched resource, resource:IVW_GRAM_1, version:1.0.2, use partial-matched path: .\/resource/ivw70/IVW_GRAM_1
+ 2024-12-23:18:05:41.625 Tx0048BC  INFO AEE::Ability::loadParamResource 146 size:1 load resource:.\/resource/ivw70/IVW_GRAM_1, version: 1.0.2, id is 3
+ 2024-12-23:18:05:41.625 Tx0048BC DEBUG [AEECore] resource offset len=448
+ 2024-12-23:18:05:41.626 Tx0048BC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.626 Tx0048BC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.626 Tx0048BC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4028,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.629 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:24
+ 2024-12-23:18:05:41.629 Tx004FBC DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 500
+ 2024-12-23:18:05:41.629 Tx0048BC  INFO AEE::ProtocolParser::init       654 parser init ret:0
+ 2024-12-23:18:05:41.629 Tx0048BC DEBUG AEE::AEE_SchemaParser::getAbili 442 ability name is e867a88f2, status is 0
+ 2024-12-23:18:05:41.629 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:57
+ 2024-12-23:18:05:41.630 Tx0048BC DEBUG [AEECore] auth verify re, code=0, offset=448
+ 2024-12-23:18:05:41.674 Tx0048BC  INFO AEE::Ability::loadParamResource 155 resource .\/resource/ivw70/IVW_GRAM_1 was loaded!
+ 2024-12-23:18:05:41.674 Tx0048BC  INFO AEE::AEESession::start          223 Session start:0 e867a88f2 this:00000224DC0077B0
+ 2024-12-23:18:05:41.674 Tx0048BC DEBUG AEE::AEE_Start                  795 AEE_Start:e867a88f2 ret 0
+ 2024-12-23:18:05:41.679 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:2
+ 2024-12-23:18:05:41.679 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:44
+ 2024-12-23:18:05:41.679 Tx0068DC DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:41.679 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:47
+ 2024-12-23:18:05:41.679 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:45
+ 2024-12-23:18:05:41.679 Tx0068DC  INFO AEE::onSignResponse             317 auth request succeed
+ 2024-12-23:18:05:41.679 Tx004FBC DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DC0E00D0 reason:30
+ 2024-12-23:18:05:41.679 Tx004FBC DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000224DC0E00D0,conn:00000224DC0ED780
+ 2024-12-23:18:05:41.679 Tx0068DC DEBUG AEE::ProtocolContext::getProtoc 500 protocol itemLen: 2 4 2 4
+ 2024-12-23:18:05:41.679 Tx0068DC DEBUG AEE::ProtocolContext::format    281 auth protocol version is: 103
+ 2024-12-23:18:05:41.680 Tx0068DC  INFO AEE::ProtocolContext::formatV2  447 ValidLen:4024,PayLen:3472,SigLen:512,SchemaLen:2140,RelationLen:36,LicenseLen:1290,ConfigLen:0
+ 2024-12-23:18:05:41.683 Tx0068DC  WARN AEE::ProtocolParser::reload     799 same version and checksum, no update required
+ 2024-12-23:18:05:41.683 Tx0068DC  WARN AEE::Mgr::onSignSuccess         602 reloadParser ret: 0
+ 2024-12-23:18:05:41.684 Tx0068DC DEBUG AEE::APMManager::addMetric      541 metric map size:2
+ 2024-12-23:18:05:41.684 Tx0068DC  WARN isNetworkAvailable             1016 after connect ret:-1
+ 2024-12-23:18:05:41.684 Tx0068DC  WARN isNetworkAvailable             1019 before connect 10035
+ 2024-12-23:18:05:41.689 Tx0068DC DEBUG isNetworkAvailable             1049 Connected
+ 2024-12-23:18:05:41.689 Tx0068DC DEBUG AEE::NetConnection::NetConnecti 422 conn ID: 2 ptr: 00000224DC0ED780
+ 2024-12-23:18:05:41.689 Tx0068DC DEBUG AEE::ConnectPool::addConnection1520 conID is 2, size is 1
+ 2024-12-23:18:05:41.689 Tx0068DC DEBUG AEE::NetConnection::genCurrentT 194 setlocale ok! English_United States.1252
+ 2024-12-23:18:05:41.689 Tx0068DC DEBUG AEE::NetConnection::genAuthoriz 218 host: cn-huabei-1-lg.xf-yun.com,method:POST, apiPath:/collector/eventLog time:Mon, 23 Dec 2024 10:05:41 GMT
+ 2024-12-23:18:05:41.689 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DC047F38 conn ptr is NULL,ignore this reason:71
+ 2024-12-23:18:05:41.689 Tx005404 DEBUG AEE::NetConnection::attach_call 330 attach_callback! context:00000224DC0461E0 tsi:0 opaque(conn):00000224DC0ED780
+ 2024-12-23:18:05:41.689 Tx005404 DEBUG AEE::NetConnection::attach_call 360 host:cn-huabei-1-lg.xf-yun.com,ip:39.105.54.181,port:80
+ 2024-12-23:18:05:41.689 Tx005404  WARN AEE::LWSContext::httpCallback   500 wsi:00000224DA368830 conn ptr is NULL,ignore this reason:85
+ lws_plat_set_socket_options_ip: not implemented on windows platform
+ 2024-12-23:18:05:41.690 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:105
+ 2024-12-23:18:05:41.690 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:19
+ 2024-12-23:18:05:41.690 Tx005404 DEBUG AEE::NetConnection::attach_call 387 lws_client_connect_via_info wsi:00000224DA368830
+ 2024-12-23:18:05:41.717 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:29
+ 2024-12-23:18:05:41.717 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:24
+ 2024-12-23:18:05:41.717 Tx005404 DEBUG AEE::LWSContext::httpCallback   627 Short Conn payloadLen 151
+ 2024-12-23:18:05:41.717 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:57
+ 2024-12-23:18:05:41.752 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:2
+ 2024-12-23:18:05:41.752 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:44
+ 2024-12-23:18:05:41.752 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:47
+ 2024-12-23:18:05:41.752 Tx0068DC DEBUG AEE::NetConnection::waitConnect 543 http status:200 timeout:0
+ 2024-12-23:18:05:41.752 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:45
+ 2024-12-23:18:05:41.752 Tx0068DC  INFO AEE::APMManager::uploadMetricTa 644 metrics sid is lat000dc0cc@dx193f2fac9afa4bc812
+ 2024-12-23:18:05:41.752 Tx0068DC DEBUG AEE::sign                       384 succeed to end sign.
+ 2024-12-23:18:05:41.753 Tx005404 DEBUG AEE::LWSContext::httpCallback   510 http conn:00000224DC0ED780 wsi:00000224DA368830 reason:30
+ 2024-12-23:18:05:41.753 Tx005404 DEBUG AEE::ShortConnection::~ShortCon 957 ~ShortConn wsi:00000224DA368830,conn:00000224DC0ED780
