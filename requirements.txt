@@ -1,0 +1,4 @@
+pyaudio
+websocket
+pvrecorder
+pvporcupine
