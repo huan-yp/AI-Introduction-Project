@@ -1,6 +1,7 @@
 
 from listen.wakeup import run
 from api.stream_listen import process_mic
+from api.tts import speak
 from api.chat import get_kimi_api_response
 
 ROLE = "小妍"
@@ -85,15 +86,28 @@ class ChatBot():
     
 agent = ChatBot()
 
-def react(debug=False):
+def react(debug=False, replay=True):
     if debug:
         print("请输入对话内容")
         text = input()
-        print(agent.chat(text)) 
+        response = agent.chat(text)
+        print("回复", response) 
+        speak(response)
     else:
         print("Wake up")
-
+        if replay:
+            speak("在呢")
+        text = process_mic()
+        print("语音提取:", text)
+        if text != "":
+            response = agent.chat(text)
+            print("回复", response)
+            speak(response)
+            react(replay=False)
+        else:
+            print("语音为空")
+            
 if __name__ == '__main__':
-    # run(target=react)
-    while True:
-        react(True)
+    run(target=react)
+    # while True:
+        # react(True)

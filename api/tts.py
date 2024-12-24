@@ -1,6 +1,6 @@
 import simpleaudio as sa
 import io
-import os
+import time
 
 from playsound import playsound
 from pydub import AudioSegment
@@ -46,6 +46,17 @@ def play_audio(audio_bytes):
         tmp_file.write(wav_bytes)
     
     playsound(tmp_filename)
+
+def speak(text):
+    """
+    该函数用于将文本转换为语音并播放。
+    """
+    start = time.time()
+    audio_bytes = tts(text)
+    print(time.time() - start)
+    start = time.time()
+    play_audio(audio_bytes)
+    print(time.time() - start)
 
 if __name__ == "__main__":
     audio_bytes = tts("你好世界")

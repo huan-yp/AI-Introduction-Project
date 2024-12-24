@@ -65,6 +65,7 @@ def process_mic(id=0):
     Returns:
         str: 录音文本
     """
+    last_action_time = time.time()
     listener = MySpeechRecognitionListener(id)
     credential_var = credential.Credential(SECRET_ID, SECRET_KEY)
     recognizer = speech_recognizer.SpeechRecognizer(
