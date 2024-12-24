@@ -1,5 +1,8 @@
+import logging
+
 from openai import OpenAI
 from utils.config import config
+
 
 def get_kimi_api_response(message_chain):
     """
@@ -29,7 +32,16 @@ def get_kimi_api_response(message_chain):
     )
     return completion.choices[0].message.content
 
-# 测试
+# 调整日志级别
+logger = logging.getLogger('httpcore.http11')
+logger.setLevel(logging.INFO)
+logger = logging.getLogger('httpcore.connection')
+logger.setLevel(logging.INFO)
+logger = logging.getLogger('httpcore.proxy')
+logger.setLevel(logging.INFO)
+logger = logging.getLogger('openai._base_client')
+logger.setLevel(logging.INFO)
+
 if __name__ == "__main__":
     input_str = "你好，Kimi！"
     message_chain = [

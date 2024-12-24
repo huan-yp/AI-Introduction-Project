@@ -1,3 +1,4 @@
+openai
 PyYaml
 fish-audio-sdk
 simpleaudio
