@@ -1,7 +1,10 @@
 import requests
 
-a["开会"] = 2
-a["上课"] = 3
+def creat(data):
+    url = f'http://127.0.0.1:5000/creattable/{data['table']}'
+    response = requests.post(url, json=data)
+    print(response.text)
+
 def post(data):
     url = f'http://127.0.0.1:5000/{data['table']}'
     response = requests.post(url, json=data)
@@ -21,14 +24,15 @@ def get_by_table(table,key):
     url = f"http://127.0.0.1:5000/by_table/{table}"
     response = requests.get(url)
     print(response.text)
-    
-for i in range(1):
-    data1={
-        'table':'成绩',
-        'key':str(i+1),
-        'value':[str(i),'20240101','20240101',str(i),str(i+1)]
-    }
-    put(data1)
+
+data1={
+    'table':'成绩',
+    'key':str(1),
+    'value':[str(1),'20240101','20240101']
+}
+post(data1)
+creat(data1)
+post(data1)
 # data1={
 #         'value':['成绩','20240101','20240101','999','99']
 #     }
