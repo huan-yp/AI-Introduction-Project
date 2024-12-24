@@ -1,4 +1,4 @@
-pyaudio
-websocket
-pvrecorder
-pvporcupine
+PyYaml
+fish-audio-sdk
+simpleaudio
+playsound

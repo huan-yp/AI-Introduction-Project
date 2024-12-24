@@ -1,4 +1,4 @@
-from api.api import get_kimi_api_response as api
+from api.chat import get_kimi_api_response as api
 import time
 import database.AI_web
 from datetime import datetime

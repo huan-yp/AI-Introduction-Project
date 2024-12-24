@@ -1,1 +1,4 @@
-﻿API_KEY: API_KEY
+﻿MOONSHOT_API_KEY: your_key
+WAKE_APP_ID: your_id
+FISH_AUDIO_KEY: your_key
+FISH_AUDIO_MODEL_ID: your_id

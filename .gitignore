@@ -1,4 +1,5 @@
 config.yaml
 **.pyc
 tests/
-sdk/wake_sdk/
+sdk/
+.temp/
