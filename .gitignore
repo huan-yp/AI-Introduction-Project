@@ -3,3 +3,5 @@ config.yaml
 tests/
 sdk/
 .temp/
+**.log
+**.json

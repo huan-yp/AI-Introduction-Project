@@ -2,3 +2,5 @@ PyYaml
 fish-audio-sdk
 simpleaudio
 playsound
+websocket-client
+pyaudio

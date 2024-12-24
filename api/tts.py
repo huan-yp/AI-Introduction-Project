@@ -24,9 +24,7 @@ def tts(text):
         reference_id=config.FISH_AUDIO_MODEL_ID,
         text=text
     )):
-        chunks.append(chunk)
-    # with open("opt.mp3", "wb+") as f:
-    #     f.write(b''.join(chunks))    
+        chunks.append(chunk) 
 
     return b''.join(chunks)
 
