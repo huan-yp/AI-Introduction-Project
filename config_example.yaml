@@ -2,3 +2,6 @@
 WAKE_APP_ID: your_id
 FISH_AUDIO_KEY: your_key
 FISH_AUDIO_MODEL_ID: your_id
+TENCENT_ID: your_id
+TENCENT_SECRET: your_secret
+TENCENT_KEY: your_key
