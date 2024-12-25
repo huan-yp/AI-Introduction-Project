@@ -72,6 +72,17 @@ class MessageChain():
         print(message_chain)
         return message_chain
 
+    def save_message_chain_to_db(self, table="message_history"):
+        """MessageChain 有重要成员, 一个是 summaries, 一个是 messages, 这个函数调用后将这两个数据保存在数据库中, 表名为 table.
+        保存的格式由你自己确定.
+        """
+        pass
+    
+    def init_message_chain_from_db(self, table="message_history"):
+        """从表名为 table 的数据库表中读取数据, 并初始化 MessageChain 的成员.
+        重建的 MessageChain 各成员数据需要和 save 时完全一致. 
+        """
+        pass
 
 class ChatBot():
     def __init__(self):
