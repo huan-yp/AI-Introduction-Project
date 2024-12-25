@@ -21,6 +21,8 @@ prompt = """
  注意: 若后方的日程安排,聊天记录或主动交流决定后面没有记录,
  表示目前暂无内容, 并非异常情况
  尽量避免在同一个时间点作出多次相同的主动交流
+ 请认真校对已经作出的主动交流决策记录, 千万！千万！不要在统一时间点作出多次问候
+ ，如果发现，请尝试删除直至一个时间点只剩一个尚未执行的主动交流决策记录
  作为ai伴侣, 尽量主动一些, 也可以根据用户反馈作出调整,
  下方为一些回复示例:
  eg1. (调用时恰好是中午) -> 2024-12-06 12:00:00|喵喵喵, 主人记得吃饭哦.
@@ -30,15 +32,22 @@ prompt = """
  eg5. (调用时发现标号为 12 的,目前 尚未执行 的主动交流决定因为日程变动而不再合适 -> delete|12
  """
 def process(*returned):
+    
     message = ''
     limit = 200
+    record = 0
+    
     if(len(returned)==2):
         limit = returned[1]    
     returned = returned[0]
     
     if(isinstance(returned,list)):
         for item in returned:
-            print(item)
+            
+            record+=1
+            if(record > limit):
+                return message
+            
             message += item['key'] 
             message += ' '     
             for val in item['value']:
@@ -89,14 +98,14 @@ def next_active():
     message += "\n此前作出过的主动交流决定时间及其内容为:\n"
     decides = decides.json()
 
-    message  += process(decides,40)
+    message  += process(decides)
     #print(message)
     dic["content"] = message
     chain.append(dic)
 
     reply = api(chain)
     #print(reply)
-    time.sleep(30)
+    time.sleep(3)
 
     if(reply=="false"):
         response=[False,"",current_time]
