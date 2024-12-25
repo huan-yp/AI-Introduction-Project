@@ -29,10 +29,16 @@ prompt = """
  eg4. (调用时发现没什么可说的/之前主动交流决定记录中以及有过类似问候了) -> false
  eg5. (调用时发现标号为 12 的,目前 尚未执行 的主动交流决定因为日程变动而不再合适 -> delete|12
  """
-def process(returned):
+def process(*returned):
     message = ''
+    limit = 200
+    if(len(returned)==2):
+        limit = returned[1]    
+    returned = returned[0]
+    
     if(isinstance(returned,list)):
         for item in returned:
+            print(item)
             message += item['key'] 
             message += ' '     
             for val in item['value']:
@@ -40,7 +46,7 @@ def process(returned):
                 message += ' '
             message += '\n'
     else:  
-        if (returned['error']=='Table is not existed'):
+        if (returned['error']):
             return message
         message += returned['key']
         message += ' '
@@ -69,7 +75,7 @@ def next_active():
     dialogue = dialogue.json()
     message += "\n此前的对话记录是\n"
 
-    message += process(dialogue)
+    message += process(dialogue,12)
 
     task = requests.get(url+"Task")
     message += "\n默认的任务属性为 任务名称 开始时间 结束时间 描述 附加信息 但是不一定如此\n"
@@ -77,19 +83,19 @@ def next_active():
     task = task.json()
     message += "\nTask: \n"
 
-    message += process(task) 
+    message += process(task,40) 
 
     decides = requests.get(url+"decides")
     message += "\n此前作出过的主动交流决定时间及其内容为:\n"
     decides = decides.json()
 
-    message  += process(decides)
+    message  += process(decides,40)
     #print(message)
     dic["content"] = message
     chain.append(dic)
 
     reply = api(chain)
-    print(reply)
+    #print(reply)
     time.sleep(30)
 
     if(reply=="false"):
