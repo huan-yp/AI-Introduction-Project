@@ -1,11 +1,16 @@
+from flask import Flask, request, jsonify
 import simpleaudio as sa
 import io
 import time
+import database.AI_web
+import requests
 
 from playsound import playsound
 from pydub import AudioSegment
 from fish_audio_sdk import Session, TTSRequest
 from utils.config import config
+
+url = "http://127.0.0.1:5000/speak"
 
 def tts(text):
     """
@@ -47,17 +52,24 @@ def play_audio(audio_bytes):
     
     playsound(tmp_filename)
 
-def speak(text):
+
+@database.AI_web.app.route('/speak', methods = ['GET'])
+def speak():
     """
     该函数用于将文本转换为语音并播放。
     """
+    text = request.json.get("text")
     start = time.time()
     audio_bytes = tts(text)
     print(time.time() - start)
     start = time.time()
     play_audio(audio_bytes)
     print(time.time() - start)
+    return '',400
+    
+
+
 
 if __name__ == "__main__":
-    audio_bytes = tts("你好世界")
-    play_audio(audio_bytes)
+    data = {"text":"goodbye world"}
+    requests.post(url,json=data)
