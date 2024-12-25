@@ -2,6 +2,7 @@ config.yaml
 **.pyc
 tests/
 sdk/
-.temp/
+temp/
 **.log
 **.json
+bin/bd8*

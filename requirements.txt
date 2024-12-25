@@ -1,7 +1,10 @@
 openai
+flask
+requests
 PyYaml
 fish-audio-sdk
 simpleaudio
-playsound
+playsound==1.2.2
 websocket-client
 pyaudio
+flask

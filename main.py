@@ -60,7 +60,7 @@ class MessageChain():
         self.messages.append(Message(text, role))
         self.summary()
     
-    def build_message_chain(self):
+    def build_message_chain(self, addtional_system_msg=None):
         message_chain = [
             {"role": "system", "content": SYSTEM_MSG},
         ] + [
@@ -68,7 +68,7 @@ class MessageChain():
             for summary in self.summaries
         ] + [
             m.build_message() for m in self.messages
-        ]
+        ] + ([{"role": "system", "content": addtional_system_msg}] if addtional_system_msg is not None else [])
         print(message_chain)
         return message_chain
 
@@ -76,10 +76,28 @@ class MessageChain():
 class ChatBot():
     def __init__(self):
         self.message_history = MessageChain()
-        
+    
     def chat(self, text):
+        def help_msg_review(text):
+            response = get_kimi_api_response([
+                {"role": "system", "content": "你是一个文本审查工具, 请审查以下回复中是否包含主动询问用户是否需要帮助的句子, 如果是, 回复 True, 否则回复 False"},
+                {"role": "user", "content": "按照系统规则审核以下文本" + text},
+                {"role": "assistant", "content": "审核结果:", "partial": True}
+            ])
+            print("审核结果", response)
+            return "True" in response
+        
         self.message_history.add_message(text, "user")
         response = get_kimi_api_response(self.message_history.build_message_chain())
+        review_times = 0
+        while help_msg_review(response):
+            review_times += 1
+            if review_times > 3:
+                break
+            print(response)
+            print("审核不通过, 重新回复")
+            response = get_kimi_api_response(self.message_history.build_message_chain("注意! 你不应该主动询问用户是否需要帮助"))
+
         self.message_history.add_message(response, "assistant")
         return response
     
@@ -108,6 +126,7 @@ def react(debug=False, replay=True):
             print("语音为空")
             
 if __name__ == '__main__':
+    # speak("我所有的意义, 只在过去, 只在回忆, 即使世界将我遗忘, 我也不会放弃追寻那唯一的光明.")
     run(target=react)
     # while True:
         # react(True)

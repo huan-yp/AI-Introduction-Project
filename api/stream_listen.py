@@ -6,6 +6,7 @@ import pyaudio
 import wave
 
 from queue import Queue
+from threading import Lock
 from datetime import datetime
 from api.common import credential
 from api.asr import speech_recognizer
@@ -16,8 +17,9 @@ SECRET_ID = config.TENCENT_SECRET
 SECRET_KEY = config.TENCENT_KEY
 ENGINE_MODEL_TYPE = "16k_zh"
 SLICE_SIZE = 6400
-INTERVAL_LIMIT = 5
+INTERVAL_LIMIT = 4
 
+action_time_lock = Lock()
 last_action_time = time.time()
 voice_text_queue = Queue()
 
@@ -35,16 +37,20 @@ class MySpeechRecognitionListener(speech_recognizer.SpeechRecognitionListener):
             datetime.now().strftime("%Y-%m-%d %H:%M:%S"), response['voice_id'], rsp_str))
 
     def on_recognition_result_change(self, response):
-        global last_action_time
+        global last_action_time, action_time_lock
+        action_time_lock.acquire()
         last_action_time = time.time()
+        action_time_lock.release()
         rsp_str = json.dumps(response, ensure_ascii=False)
         print("%s|%s|OnResultChange, rsp %s\n" % (datetime.now().strftime(
             "%Y-%m-%d %H:%M:%S"), response['voice_id'], rsp_str))
 
     def on_sentence_end(self, response):
-        global last_action_time, voice_text_queue
+        global voice_text_queue, last_action_time, action_time_lock
+        action_time_lock.acquire()
         rsp_str = json.dumps(response, ensure_ascii=False)
         last_action_time = time.time()
+        action_time_lock.release()
         voice_text_queue.put(rsp_str)
         print("%s|%s|OnSentenceEnd, rsp %s\n" % (datetime.now().strftime(
             "%Y-%m-%d %H:%M:%S"), response['voice_id'], rsp_str))
@@ -65,6 +71,7 @@ def process_mic(id=0):
     Returns:
         str: 录音文本
     """
+    global last_action_time
     last_action_time = time.time()
     listener = MySpeechRecognitionListener(id)
     credential_var = credential.Credential(SECRET_ID, SECRET_KEY)
@@ -113,7 +120,7 @@ def process_mic(id=0):
             p.terminate()
             
             # 记录日志
-            wf = wave.open(f".temp/{time.time()}.wav", 'wb')
+            wf = wave.open(f"temp/{time.time()}.wav", 'wb')
             wf.setnchannels(CHANNELS)
             wf.setsampwidth(p.get_sample_size(FORMAT))
             wf.setframerate(RATE)
@@ -128,11 +135,16 @@ def process_mic(id=0):
         try:
             while True:
                 time.sleep(0.1)
+                action_time_lock.acquire()
                 if time.time() - last_action_time > INTERVAL_LIMIT:
+                    action_time_lock.release()
+                    print("Recive End")
                     voices = []
-                    while not voice_text_queue.empty():
+                    while voice_text_queue.qsize() > 0:
+                        print("GET TEXT")
                         voices.append(json.loads(voice_text_queue.get())["result"]["voice_text_str"])
                     return "\n".join(voices)
+                action_time_lock.release()
                 
         except KeyboardInterrupt:
             pass
