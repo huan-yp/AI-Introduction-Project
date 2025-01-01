@@ -21,6 +21,8 @@ prompt = """
  注意: 若后方的日程安排,聊天记录或主动交流决定后面没有记录,
  表示目前暂无内容, 并非异常情况
  尽量避免在同一个时间点作出多次相同的主动交流
+ 请认真校对已经作出的主动交流决策记录, 千万！千万！不要在统一时间点作出多次问候
+ ，如果发现，请尝试删除直至一个时间点只剩一个尚未执行的主动交流决策记录
  作为ai伴侣, 尽量主动一些, 也可以根据用户反馈作出调整,
  下方为一些回复示例:
  eg1. (调用时恰好是中午) -> 2024-12-06 12:00:00|喵喵喵, 主人记得吃饭哦.
@@ -29,10 +31,23 @@ prompt = """
  eg4. (调用时发现没什么可说的/之前主动交流决定记录中以及有过类似问候了) -> false
  eg5. (调用时发现标号为 12 的,目前 尚未执行 的主动交流决定因为日程变动而不再合适 -> delete|12
  """
-def process(returned):
+def process(*returned):
+    
     message = ''
+    limit = 200
+    record = 0
+    
+    if(len(returned)==2):
+        limit = returned[1]    
+    returned = returned[0]
+    
     if(isinstance(returned,list)):
         for item in returned:
+            
+            record+=1
+            if(record > limit):
+                return message
+            
             message += item['key'] 
             message += ' '     
             for val in item['value']:
@@ -40,7 +55,7 @@ def process(returned):
                 message += ' '
             message += '\n'
     else:  
-        if (returned['error']=='Table is not existed'):
+        if (returned['error']):
             return message
         message += returned['key']
         message += ' '
@@ -69,7 +84,7 @@ def next_active():
     dialogue = dialogue.json()
     message += "\n此前的对话记录是\n"
 
-    message += process(dialogue)
+    message += process(dialogue,12)
 
     task = requests.get(url+"Task")
     message += "\n默认的任务属性为 任务名称 开始时间 结束时间 描述 附加信息 但是不一定如此\n"
@@ -77,7 +92,7 @@ def next_active():
     task = task.json()
     message += "\nTask: \n"
 
-    message += process(task) 
+    message += process(task,40) 
 
     decides = requests.get(url+"decides")
     message += "\n此前作出过的主动交流决定时间及其内容为:\n"
@@ -89,8 +104,8 @@ def next_active():
     chain.append(dic)
 
     reply = api(chain)
-    print(reply)
-    time.sleep(30)
+    #print(reply)
+    time.sleep(3)
 
     if(reply=="false"):
         response=[False,"",current_time]

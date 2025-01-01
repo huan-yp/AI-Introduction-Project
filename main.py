@@ -3,6 +3,7 @@ from listen.wakeup import run
 from api.stream_listen import process_mic
 from api.tts import speak
 from api.chat import get_kimi_api_response
+import requests
 
 ROLE = "小妍"
 SYSTEM_MSG = f"""
@@ -41,6 +42,8 @@ class MessageChain():
     def __init__(self):
         self.summaries = []
         self.messages = []
+        self.read_summary_length = 0
+        self.read_message_length = 0
     
     def summary(self):
         def gen_summary_text():
@@ -77,14 +80,81 @@ class MessageChain():
         """MessageChain 有重要成员, 一个是 summaries, 一个是 messages, 这个函数调用后将这两个数据保存在数据库中, 表名为 table.
         保存的格式由你自己确定.
         """
-        pass
+        url = 'http://127.0.0.1:5000/'
+        
+        count = 0
+        for message in self.messages:
+            count += 1 
+            if(count <= self.read_message_length):
+                continue
+            
+            value = []
+            data = message.build_message()
+            data["table"] = table
+            
+            data["key"] = 'm'+str(count)
+            value.append(data["role"])
+            data.pop("role",None)
+            
+            value.append(data["content"])
+            data.pop("content",None)
+            data["value"] = value
+            
+            if(count == 1):
+                requests.post(url+"creattable/"+table,json=data)
+            
+            post_url = f"http://127.0.0.1:5000/{data['table']}"
+            print(requests.post(post_url,json=data).text)
+           
+            
+        count = 0 
+        for summary in self.summaries:
+            count += 1 
+            if(count <= self.read_summary_length):
+                continue
+            
+            value = []
+            data = {}
+            
+            data["table"] = table
+            data["key"] = 's'+str(count)   
+            value.append(summary)
+            data["value"] = value
+            
+            post_url = f"http://127.0.0.1:5000/{data['table']}"
+            print(requests.post(post_url,json=data).text)
+            
+        return
     
     def init_message_chain_from_db(self, table="message_history"):
-        """从表名为 table 的数据库表中读取数据, 并初始化 MessageChain 的成员.
-        重建的 MessageChain 各成员数据需要和 save 时完全一致. 
-        """
-        pass
-
+        url = 'http://127.0.0.1:5000/by_table/'
+        record = requests.get(url+table)
+        
+        record = record.json()
+        
+        if(not record):
+            return
+        
+        if(isinstance(record,dict)):
+            if(record["error"]):
+                return 
+            
+            record=[record]
+       
+        for rec in record:          
+            if(rec["key"][0]=='s'):
+                self.read_summary_length += 1
+                self.summaries.append(rec["value"][0])
+                
+            if(rec["key"][0]=='m'):
+                self.read_message_length += 1
+                role = rec["value"][0]
+                content = rec["value"][1]
+                self.messages.append(Message(content,role))
+            print(rec)
+                
+        return
+    
 class ChatBot():
     def __init__(self):
         self.message_history = MessageChain()
@@ -142,3 +212,16 @@ if __name__ == '__main__':
     run(target=react)
     # while True:
         # react(True)
+    # message_chain = MessageChain()
+    # message_chain.init_message_chain_from_db()
+    # message_chain.messages.append(Message("111111","assistant"))
+    # message_chain.messages.append(Message("222222","user"))
+    # message_chain.messages.append(Message("333333","assistant"))
+    # message_chain.messages.append(Message("444444","user"))
+    # message_chain.summaries.append("1111111")
+    # message_chain.summaries.append("1111111")
+    # message_chain.summaries.append("1111111")
+    # message_chain.summaries.append("1111111")
+    # message_chain.save_message_chain_to_db()
+    
+    
