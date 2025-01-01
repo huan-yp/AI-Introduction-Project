@@ -17,8 +17,7 @@ SECRET_ID = config.TENCENT_SECRET
 SECRET_KEY = config.TENCENT_KEY
 ENGINE_MODEL_TYPE = "16k_zh"
 SLICE_SIZE = 6400
-INTERVAL_LIMIT = 4
-
+INTERVAL_LIMIT = 6
 action_time_lock = Lock()
 last_action_time = time.time()
 voice_text_queue = Queue()

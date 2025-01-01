@@ -1,47 +1,63 @@
-import re
+from api.chat import get_kimi_api_response
+import requests
 
-from openai import OpenAI
+TABLE_NAME = "dialogue"
+CHECK_DEL = "请分析以下文本是否包含删除任务的指令，并根据以下规则处理：\n"
+CHECK_DEL += "1. 如果不是指令，返回 None。\n"
+CHECK_DEL += "2. 如果是指令，检查数据库中是否存在对应的任务。\n"
+CHECK_DEL += "   - 如果任务存在，执行删除并返回 (True, 删掉的任务, AI回复)。\n"
+CHECK_DEL += "   - 如果任务不存在，返回 (False, None, AI回复)。\n"
+CHECK_ADD = "请分析文本以下是否包含添加任务的指令，并根据以下规则处理：\n"
+CHECK_ADD += "1. 如果不是指令，返回 None。\n"
+CHECK_ADD += "2. 如果是指令，检查数据库中是否存在冲突的任务。\n"
+CHECK_ADD += "   - 如果没有冲突，执行添加并返回 (True, 增加的任务, AI回复)。\n"
+CHECK_ADD += "   - 如果存在冲突，返回 (False, None, AI回复)。"
+CHECK_KEY = "以下任务的时间是什么时候（以年-月-日形式输出）"
+UPDATE_HISTORY = "在任务列表中加入以下任务\n"
 
-def get_kimi_api_response(input_string):
-    client = OpenAI(
-    api_key="sk-qeSybUg1d0nhy8h89zx4oX998K7wCFFXos0P3aKK67Nb5NVd", # 在这里将 MOONSHOT_API_KEY 替换为你从 Kimi 开放平台申请的 API Key
-    base_url="https://api.moonshot.cn/v1",
-)
- 
-    completion = client.chat.completions.create(
-        model = "moonshot-v1-8k",
-        messages = [
-            {"role": "system", "content": "你是 Kimi，由 Moonshot AI 提供的人工智能助手，你更擅长中文和英文的对话。你会为用户提供安全，有帮助，准确的回答。同时，你会拒绝一切涉及恐怖主义，种族歧视，黄色暴力等问题的回答。Moonshot AI 为专有名词，不可翻译成其他语言。"},
-            {"role": "user", "content": f"{input_string}"}
-        ],
-        temperature = 0.3,
-    )
+class UserTask:
+    def __init__(self):
+        pass
 
-    return completion.choices[0].message.content
+    def add_task(self, input_task):
+        url = f'http://127.0.0.1:5000/{TABLE_NAME}'
+        payload = {'key': get_kimi_api_response(CHECK_KEY + input_task), 'value': input_task}
+        response = requests.post(url, json=payload)
+        return response.json()
+    
+    def delete_task(self, input_task):
+        url = f'http://127.0.0.1:5000/delete/{input_task}'
+        response = requests.delete(url)
+        return response.status_code
+    
+    def get_all_data(tablename):
+        url = f'http://127.0.0.1:5000/by_table/{tablename}'
+        response = requests.get(url)
+        return response.json()
+   
 
+def try_del_task(text):
+    table = UserTask()  
+    history = ""
+    list = table.get_all_data(TABLE_NAME)
+    for task in list:
+        history += task[3] + "\n"
+    response = get_kimi_api_response(UPDATE_HISTORY + history + CHECK_DEL + text).split()
+    if response.length() != 3:
+        return None
+    if response[0] == True:
+        table.delete_task(response[1])
+    return [response[0], response[1], response[2]]
 
-# 定义提取时间信息的函数 返回一个时间列表
-def extract_time(text):
-    # 正则表达式匹配年月日
-    time_pattern = r'\b(\d{4}-\d{1,2}-\d{1,2}|\d{1,2}-\d{1,2}-\d{4}|\d{1,2}:\d{1,2}(:\d{1,2})?)\b'
-    time_matches = re.findall(time_pattern, text)
-    if time_matches: 
-        return time_matches
-    else:
-        return -1
-# 支持 年-月-日 月-日-年 分-秒的表达
-# 定义提取任务信息的函数 返回一个关键词列表
-def extract_task(text):
-    task_keywords = ['作业','考试','出行','比赛','活动']
-    extracted_keywords = []
-    for keyword in task_keywords:
-        if keyword in text:  # 检查关键词是否在文本中
-            extracted_keywords.append(keyword)  # 添加找到的关键词到列表中
-    if extracted_keywords:
-        return extracted_keywords
-    else:
-        return -1
-# 使用函数的示例
-input_str = "你好，Kimi！"
-response_text = get_kimi_api_response(input_str)
-print(response_text)
+def try_add_task(text):
+    table = UserTask()  
+    history = ""
+    list = table.get_all_data(TABLE_NAME)
+    for task in list:
+        history += task[3] + "\n"
+    response = get_kimi_api_response(UPDATE_HISTORY + history + CHECK_ADD + text).split()
+    if response.length() != 3:
+        return None
+    if response[0] == True:
+        table.add_task(response[1])
+    return [response[0], response[1], response[2]]

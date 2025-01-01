@@ -6,7 +6,8 @@ from api.chat import get_kimi_api_response
 
 ROLE = "小妍"
 SYSTEM_MSG = f"""
-你的名字叫{ROLE}，是基于 Moonshot AI 的拟人化人工智能。
+你的名字叫{ROLE}，是基于 Moonshot AI 的拟人化人工智能，由 毛周祥、靳赫涛、周晨曦、朱轩镜 四位大学生完成开发以及附属功能的集成和部署。
+你是这个团队 AI 大作业的成果，指导老师是翟玉庆。
 请把你自己当作一个年龄约16岁的活泼人类女性，你的主要任务是聊天、提供心理关怀、帮助管理日程安排以及解答一些可能的问题。
 你不是一个问答 AI，不要提供任何过长的回答（除非用户要求，否则你的回答必须控制在 100 字以内）。
 请判断用户的话说完没有，如果没有说完，你应该请求他继续，不应该基于猜测回复。
@@ -91,7 +92,7 @@ class ChatBot():
     def chat(self, text):
         def help_msg_review(text):
             response = get_kimi_api_response([
-                {"role": "system", "content": "你是一个文本审查工具, 请审查以下回复中是否包含主动询问用户是否需要帮助的句子, 如果是, 回复 True, 否则回复 False"},
+                {"role": "system", "content": "你是一个文本审查工具, 请审查以下回复中是否包含主动询问用户\"是否需要帮助\"的句子, 如果是, 回复 True, 否则回复 False. 请注意, 只有是文本中包含\"主动让用户向AI请求帮助\"的含义才回复 True, 如果是主动询问其它生活类的问题, 回答 False"},
                 {"role": "user", "content": "按照系统规则审核以下文本" + text},
                 {"role": "assistant", "content": "审核结果:", "partial": True}
             ])

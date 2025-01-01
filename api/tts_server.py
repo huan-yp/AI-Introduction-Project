@@ -1,13 +1,23 @@
 import simpleaudio as sa
 import io
 import time
-import os
+import logging
 
 from playsound import playsound
 from pydub import AudioSegment
 from fish_audio_sdk import Session, TTSRequest
 from utils.config import config
 from flask import Flask, request
+
+# 调整日志级别
+logger = logging.getLogger('httpcore.http11')
+logger.setLevel(logging.INFO)
+logger = logging.getLogger('httpcore.connection')
+logger.setLevel(logging.INFO)
+logger = logging.getLogger('httpcore.proxy')
+logger.setLevel(logging.INFO)
+logger = logging.getLogger('openai._base_client')
+logger.setLevel(logging.INFO)
 
 def tts(text):
     """
